@@ -49,6 +49,8 @@
 
     <!-- Info popover, hidden by default -->
     <div id="infoPopover" class="info-popover hidden">
+      <!-- Close (x) button in the top-right corner -->
+      <button class="info-close" onclick="closeInfo()" aria-label="Close">×</button>
       <h3>About this schedule</h3>
       <div>
         Only <strong>Approved</strong> items from the monday.com board are shown.
@@ -836,6 +838,11 @@
       document.getElementById('infoPopover').classList.toggle('hidden');
     }
 
+    // Explicitly close the info popover (used by the x button, click-outside, Escape).
+    function closeInfo() {
+      document.getElementById('infoPopover').classList.add('hidden');
+    }
+
     /* ---------------------------------------------------------
        EVENT LISTENERS
        --------------------------------------------------------- */
@@ -845,6 +852,25 @@
 
     // Re-render on resize so the month view's mobile labels update.
     window.addEventListener('resize', render);
+
+    // Close the info popover when clicking anywhere outside it.
+    // We ignore clicks on the (i) button itself so its own toggle still works.
+    document.addEventListener('click', event => {
+      const popover = document.getElementById('infoPopover');
+      if (popover.classList.contains('hidden')) return;
+
+      const clickedInsidePopover = popover.contains(event.target);
+      const clickedInfoButton = event.target.closest('.info-btn');
+
+      if (!clickedInsidePopover && !clickedInfoButton) {
+        closeInfo();
+      }
+    });
+
+    // Close the info popover with the Escape key.
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeInfo();
+    });
 
     loadSchedule();
   </script>
