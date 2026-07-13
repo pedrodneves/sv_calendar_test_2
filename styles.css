@@ -152,9 +152,27 @@ input::placeholder { color: #9b8bb7; }
   color: var(--muted);
 }
 .info-popover.hidden { display: none; }
-.info-popover h3 { margin: 0 0 8px; color: var(--text); font-size: 15px; }
+.info-popover h3 { margin: 0 0 8px; padding-right: 28px; color: var(--text); font-size: 15px; }
 .info-popover ul { margin: 8px 0 0; padding-left: 18px; }
 .info-popover li { margin-bottom: 4px; }
+
+/* Close (x) button inside the info popover */
+.info-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid rgba(201, 156, 255, 0.3);
+}
+.info-close:hover { color: var(--text); background: rgba(201, 156, 255, 0.12); }
 
 /* ---- Period title (month / week range / single day) -------- */
 .month-title {
