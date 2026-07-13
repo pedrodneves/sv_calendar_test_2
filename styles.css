@@ -135,37 +135,61 @@ input::placeholder { color: #9b8bb7; }
   padding: 0;
 }
 
-/* Info popover (hidden until toggled) */
+/* Info popover (hidden until toggled) — centered modal */
 .info-popover {
   position: fixed;
-  top: 90px;
-  right: 24px;
-  max-width: 340px;
-  padding: 18px 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(560px, calc(100vw - 40px));
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding: 26px 30px;
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 20px;
   background: linear-gradient(135deg, rgba(27, 16, 54, 0.98), rgba(8, 8, 18, 0.98));
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
   z-index: 50;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.6;
   color: var(--muted);
 }
 .info-popover.hidden { display: none; }
-.info-popover h3 { margin: 0 0 8px; padding-right: 28px; color: var(--text); font-size: 15px; }
+.info-popover h3 { margin: 0 0 8px; padding-right: 28px; color: var(--purple-soft); font-size: 22px; font-weight: 900; }
 .info-popover ul { margin: 8px 0 0; padding-left: 18px; }
 .info-popover li { margin-bottom: 4px; }
+
+/* Secondary heading inside the popover (e.g. "Activity Types") */
+.info-popover .info-section-title {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(201, 156, 255, 0.22);
+}
+
+/* Activity-type definition list */
+.activity-types { margin: 14px 0 0; }
+.activity-types dt {
+  color: var(--text);
+  font-weight: 800;
+  font-size: 15px;
+  margin-top: 16px;
+}
+.activity-types dt:first-child { margin-top: 0; }
+.activity-types dd {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
 
 /* Close (x) button inside the info popover */
 .info-close {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 28px;
-  height: 28px;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
   padding: 0;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1;
   font-weight: 700;
   color: var(--muted);
@@ -173,6 +197,15 @@ input::placeholder { color: #9b8bb7; }
   border: 1px solid rgba(201, 156, 255, 0.3);
 }
 .info-close:hover { color: var(--text); background: rgba(201, 156, 255, 0.12); }
+
+/* Dim backdrop behind the modal */
+.info-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 3, 10, 0.6);
+  z-index: 49;
+}
+.info-backdrop.hidden { display: none; }
 
 /* ---- Period title (month / week range / single day) -------- */
 .month-title {
