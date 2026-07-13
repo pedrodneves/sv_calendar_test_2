@@ -1,0 +1,622 @@
+[
+  {
+    "title": "DevNet upgrades to Splice 0.6.12",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.11",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.10",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.6.13",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.12",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.11",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "DevNet: 0.6.9 (To Be Confirmed)",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "TestNet: 0.6.9 (To Be Confirmed)",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "MainNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "MainNet: 0.6.7",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Traffic-based app rewards (CIP-104) goes live",
+    "start": "2026-07-21",
+    "end": "2026-07-21",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "TestNet:  Topology Freeze 9am US Eastern / 1300 UTC",
+    "start": "2026-07-21",
+    "end": "2026-07-21",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: LSU to adopt CantonBFT-based synchronizers",
+    "start": "2026-07-22 14:00",
+    "end": "2026-07-22 14:00",
+    "description": "Topology freeze starts July 21st, 24 hours before LSU",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.6.14",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.13",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.12",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "description": "DevNet: 0.6.9 (To Be Confirmed)",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "description": "TestNet: 0.6.9 (To Be Confirmed)",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "MainNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "description": "MainNet: 0.6.9 (To Be Confirmed)",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Traffic-based app rewards (CIP-104) go live",
+    "start": "2026-07-28",
+    "end": "2026-07-28",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Topology Freeze 9am US Eastern / 1300 UTC",
+    "start": "2026-08-07",
+    "end": "2026-08-07",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet LSU to adopt CantonBFT-based synchronizers",
+    "start": "2026-08-08 14:00",
+    "end": "2026-08-08 14:00",
+    "description": "Topology freeze starts August 7th, 24 hours before LSU",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "Minimum Splice Versions for Validators",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "DevNet: 0.6.7\nTestNet: 0.6.5\nMainNet: 0.6.5",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.6",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.7",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.6.8",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Daml models from Splice 0.6.7 effective",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "required for CIP-104",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet Topology Freeze 9am",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Minimum Splice.dar Versions",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "Splice .dars: \nDevNet: \namulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19\n\nTestNet: \namulet 0.1.18\namuletNameService 0.1.19\ndsoGovernance 0.1.24\nvalidatorLifecycle 0.1.7\nwallet 0.1.19\nwalletPayments 0.1.18\n\nMainNet:\namulet 0.1.18\namuletNameService 0.1.19\ndsoGovernance 0.1.24\nvalidatorLifecycle 0.1.7\nwallet 0.1.19\nwalletPayments 0.1.18",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet LSU pv34->pv35",
+    "start": "2026-06-17",
+    "end": "2026-06-17",
+    "description": "validators must upgrade to >= 0.6.5 before the LSU. \n\nTopology freeze starts June 16th, 24 hours before LSU",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.6.9",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Minimum Splice Versions 0.6.7",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Minimum Splice Versions 0.6.5",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Minimum Splice Versions 0.6.7",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.8",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.7",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet:Minimum Splice.dar Versions",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "amulet 0.1.18\namuletNameService 0.1.19\ndsoGovernance 0.1.24\nvalidatorLifecycle 0.1.7\nwallet 0.1.19\nwalletPayments 0.1.18",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Minimum Splice Dar versions",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Minimum Splice.dar Versions",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Minimum Splice Dar versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Minimum Splice.dar Versions",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Minimum Splice Dar versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Daml models from Splice 0.6.7 effective",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "required for CIP-104",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Dry-run of traffic-based app rewards begins",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Topology Freeze 9am",
+    "start": "2026-06-26",
+    "end": "2026-06-26",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet LSU pv34->pv35, validators must upgrade to >= 0.6.5 before the LSU",
+    "start": "2026-06-27 14:00",
+    "end": "2026-06-27 14:00",
+    "description": "Topology freeze starts June 26th, 24 hours before LSU",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.6.10",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "Minimum Splice Versions for Validators",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "DevNet: 0.6.7\nTestNet: 0.6.7\nMainNet: 0.6.7",
+    "status": "Approved",
+    "network": "",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: 0.6.7 - Minimum Splice Versions for Validators",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "TestNet: 0.6.7\nMainNet: 0.6.7",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.8",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.9",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "Main Net - Minimum Splice.dar Versions",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Minimum Splice Dar versions",
+    "category": "general"
+  },
+  {
+    "title": "Dev Net - Minimum Splice.dar Versions",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19\n\nTestNet: \namulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19\n\nMainNet:\namulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Minimum Splice Dar versions",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Daml models from Splice 0.6.7 effective",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "required for CIP-104",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "Test Net- Minimum Splice.dar Versions",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Minimum Splice Dar versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Dry-run of traffic-based app rewards begins",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.9",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "description": "MainNet: 0.6.7",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "description": "TestNet: 0.6.7",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.6.11",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet - Minimum Splice Versions for Validators",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "description": "DevNet: 0.6.9 (To Be Confirmed)",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.10",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Traffic-based app rewards (CIP-104) goes live",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "DevNet:  Topology Freeze 9am US Eastern / 1300 UTC",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Dry-run of traffic-based app rewards begins",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: LSU to adopt CantonBFT-based synchronizers",
+    "start": "2026-07-08 14:00",
+    "end": "2026-07-08 14:00",
+    "description": "Topology freeze starts July 7th, 24 hours before LSU",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  }
+]

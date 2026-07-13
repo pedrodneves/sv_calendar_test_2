@@ -1,0 +1,538 @@
+/* =============================================================
+   SV Operations Schedule — stylesheet
+   Extracted from the original inline <style> block and extended
+   with the new Week / Day / List views and connected-event UI.
+   ============================================================= */
+
+/* ---- Theme tokens (colors, shared values) ------------------ */
+:root {
+  --bg: #03030a;                       /* page base color */
+  --panel: #10091f;                    /* panel/card base color */
+  --purple: #7c4dff;                   /* primary accent */
+  --purple-soft: #c99cff;              /* lighter accent (labels/headings) */
+  --green: #43d17a;                    /* "source" pill accent */
+  --text: #f7f4ff;                     /* main text color */
+  --muted: #cdb8ef;                    /* secondary/muted text */
+  --border: rgba(124, 77, 255, 0.65);  /* standard panel border */
+}
+
+/* Universal box-sizing so padding never breaks layout widths */
+* { box-sizing: border-box; }
+
+/* ---- Page shell -------------------------------------------- */
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  /* Layered gradient: soft purple glow top-left + vertical fade */
+  background:
+    radial-gradient(circle at top left, rgba(124, 77, 255, 0.22), transparent 35%),
+    linear-gradient(180deg, #03030a 0%, #070711 100%);
+  color: var(--text);
+  padding: 28px 20px;
+}
+
+/* Centered content column */
+.page { max-width: 1500px; margin: 0 auto; }
+
+/* ---- Header ------------------------------------------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+h1 { margin: 0; font-size: 38px; letter-spacing: -1px; }
+.subtitle { margin-top: 8px; color: var(--muted); }
+
+/* Right-hand cluster in the header: source pill + list-view toggle */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Green "Source: monday.com" pill */
+.source-pill {
+  border: 1px solid var(--green);
+  color: var(--green);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* Purple List-view / Calendar-view toggle pill (top-right) */
+.view-toggle-pill {
+  border: 1px solid var(--purple);
+  background: var(--purple);
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.view-toggle-pill:hover { filter: brightness(1.1); }
+
+/* ---- Controls bar ------------------------------------------ */
+.controls {
+  display: grid;
+  /* prev / today / next / search / network / type / info */
+  grid-template-columns: auto auto auto 1fr 200px 200px auto;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(27, 16, 54, 0.95), rgba(8, 8, 18, 0.95));
+}
+
+button, input, select {
+  background: #0c0a18;
+  border: 1px solid rgba(201, 156, 255, 0.45);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 15px;
+}
+
+button { cursor: pointer; }
+input::placeholder { color: #9b8bb7; }
+
+/* View switcher (Month / Week / Day) grouped on the right */
+.view-switcher {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.view-switcher button {
+  padding: 10px 16px;
+  font-weight: 700;
+}
+
+/* Currently active view button */
+.view-switcher button.active {
+  background: var(--purple);
+  border-color: var(--purple);
+  color: #ffffff;
+}
+
+/* Round info (i) button */
+.info-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 0;
+}
+
+/* Info popover (hidden until toggled) */
+.info-popover {
+  position: fixed;
+  top: 90px;
+  right: 24px;
+  max-width: 340px;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(27, 16, 54, 0.98), rgba(8, 8, 18, 0.98));
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+  z-index: 50;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.info-popover.hidden { display: none; }
+.info-popover h3 { margin: 0 0 8px; color: var(--text); font-size: 15px; }
+.info-popover ul { margin: 8px 0 0; padding-left: 18px; }
+.info-popover li { margin-bottom: 4px; }
+
+/* ---- Period title (month / week range / single day) -------- */
+.month-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 20px 0 18px;
+}
+
+/* ---- Month grid -------------------------------------------- */
+.weekdays,
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.weekdays { margin-bottom: 10px; }
+
+.weekday {
+  color: var(--purple-soft);
+  font-weight: 900;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+
+.day {
+  height: 300px;
+  border: 1px solid rgba(124, 77, 255, 0.7);
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at top left, rgba(124, 77, 255, 0.18), transparent 45%),
+    linear-gradient(135deg, #1a0f34, #070812);
+  padding: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.day.outside { opacity: 0.35; }
+
+.day.today {
+  border-color: var(--purple-soft);
+  box-shadow: 0 0 18px rgba(201, 156, 255, 0.25);
+}
+
+.day-number {
+  font-weight: 900;
+  color: var(--purple-soft);
+  margin-bottom: 10px;
+}
+
+/* ---- Week view --------------------------------------------- */
+/* Week view reuses .weekdays + .calendar but makes each column
+   taller and lets it grow with content. */
+.calendar.week-grid .day {
+  height: auto;
+  min-height: 420px;
+}
+
+/* ---- Day view ---------------------------------------------- */
+/* A single wide panel with events grouped by activity type. */
+.day-view {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at top left, rgba(124, 77, 255, 0.15), transparent 45%),
+    linear-gradient(135deg, #14092b, #070812);
+  padding: 22px 24px;
+}
+
+.day-view .day-view-heading {
+  color: var(--purple-soft);
+  font-weight: 900;
+  font-size: 22px;
+  margin: 0 0 12px;
+}
+
+/* Activity-type grouping heading inside the day/list views */
+.type-group-title {
+  color: var(--purple-soft);
+  font-weight: 900;
+  font-size: 16px;
+  margin: 18px 0 10px;
+}
+
+/* Empty-state message */
+.empty-note {
+  color: var(--muted);
+  font-style: italic;
+  padding: 8px 0;
+}
+
+/* ---- Event card -------------------------------------------- */
+.event {
+  border: 1px solid rgba(201, 156, 255, 0.35);
+  border-left: 4px solid rgba(201, 156, 255, 0.45);
+  border-radius: 12px;
+  background: rgba(124, 77, 255, 0.22);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Larger event cards in the roomy day/list views */
+.day-view .event,
+.list-view .event {
+  font-size: 15px;
+  padding: 14px 16px;
+}
+
+.event.devnet {
+  background: rgba(37, 99, 235, 0.28);
+  border-color: #2563eb;
+  border-left: 4px solid #2563eb;
+}
+
+.event.testnet {
+  background: rgba(250, 204, 21, 0.16);
+  border-color: #facc15;
+  border-left: 4px solid #facc15;
+}
+
+.event.mainnet {
+  background: rgba(22, 163, 74, 0.28);
+  border-color: #16a34a;
+  border-left: 4px solid #16a34a;
+}
+
+.title {
+  font-weight: 900;
+  text-decoration: underline;
+  margin-bottom: 6px;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+/* ---- Tags (badges) ----------------------------------------- */
+.tag {
+  font-size: 10px;
+  color: var(--muted);
+  border: 1px solid rgba(201, 156, 255, 0.28);
+  border-radius: 999px;
+  padding: 3px 7px;
+  font-weight: 700;
+  background: rgba(201, 156, 255, 0.08);
+}
+
+/* Slightly bigger tags in day/list views */
+.day-view .tag,
+.list-view .tag { font-size: 12px; padding: 4px 9px; }
+
+.tag.devnet {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.tag.testnet {
+  background: #fde047;
+  border-color: #fde047;
+  color: #111827;
+}
+
+.tag.mainnet {
+  background: #16a34a;
+  border-color: #16a34a;
+  color: #ffffff;
+}
+
+/* "All day" / time tag — neutral styling */
+.tag.time-tag {
+  background: rgba(201, 156, 255, 0.12);
+  border-color: rgba(201, 156, 255, 0.4);
+  color: var(--text);
+}
+
+/* Link tag ("→ LSU Jul 8" / "← Freeze Jul 7") on connected events */
+.tag.link-tag {
+  background: rgba(124, 77, 255, 0.35);
+  border-color: var(--purple);
+  color: #ffffff;
+}
+
+.description { white-space: pre-wrap; }
+
+/* ---- Network sub-sections inside a description ------------- */
+.network-section {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(201, 156, 255, 0.25);
+}
+
+.network-title {
+  color: var(--purple-soft);
+  font-weight: 900;
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
+
+/* ---- Connected-event block --------------------------------- */
+/* Shows the counterpart event (freeze <-> LSU) with a jump link. */
+.connected-block {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(201, 156, 255, 0.4);
+}
+
+.connected-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--purple-soft);
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* The nested counterpart card is a quieter version of an event */
+.connected-card {
+  border: 1px solid rgba(201, 156, 255, 0.25);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 12px;
+}
+
+.connected-card .connected-title {
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+/* "View on <date> →" jump button */
+.jump-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: var(--purple);
+  border: 1px solid var(--purple);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.jump-btn:hover { filter: brightness(1.1); }
+
+/* ---- List view --------------------------------------------- */
+/* Two-column: mini date-picker on the left, agenda on the right. */
+.list-view {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+/* Mini month picker */
+.mini-cal {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(27, 16, 54, 0.95), rgba(8, 8, 18, 0.95));
+  padding: 18px;
+  position: sticky;
+  top: 20px;
+}
+
+.mini-cal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.mini-cal-header .mini-title {
+  color: var(--purple-soft);
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.mini-cal-header button {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  text-align: center;
+}
+
+.mini-grid .mini-weekday {
+  color: var(--purple-soft);
+  font-weight: 900;
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+.mini-grid .mini-day {
+  padding: 8px 0;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.mini-grid .mini-day.outside { color: #574a75; cursor: default; }
+.mini-grid .mini-day:not(.outside):hover { background: rgba(124, 77, 255, 0.25); }
+
+/* Selected / current day in the mini picker */
+.mini-grid .mini-day.selected {
+  background: var(--purple);
+  color: #ffffff;
+  font-weight: 800;
+}
+
+/* Agenda column */
+.agenda { min-width: 0; }
+
+/* One date block in the agenda */
+.agenda-day { margin-bottom: 26px; }
+
+.agenda-date {
+  color: var(--purple-soft);
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* ---- Footer ------------------------------------------------ */
+.footer-meta {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+/* ---- Responsive -------------------------------------------- */
+@media (max-width: 900px) {
+  header { flex-direction: column; align-items: flex-start; }
+  .controls { grid-template-columns: 1fr; }
+  .day { height: 240px; }
+  .event { font-size: 11px; }
+  .list-view { grid-template-columns: 1fr; }
+  .mini-cal { position: static; }
+}
+
+@media (max-width: 700px) {
+  body { padding: 18px 12px; }
+  h1 { font-size: 28px; }
+  .weekdays { display: none; }
+  .calendar { display: block; }
+
+  .day {
+    height: auto;
+    min-height: 120px;
+    margin-bottom: 14px;
+  }
+
+  .day.outside { display: none; }
+
+  .day-number {
+    font-size: 20px;
+    color: var(--purple-soft);
+    border-bottom: 1px solid rgba(201, 156, 255, 0.25);
+    padding-bottom: 8px;
+  }
+
+  .event { font-size: 14px; }
+
+  .footer-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
