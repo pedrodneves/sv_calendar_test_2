@@ -79,17 +79,22 @@ h1 { margin: 0; font-size: 38px; letter-spacing: -1px; }
 
 /* ---- Controls bar ------------------------------------------ */
 .controls {
-  display: grid;
-  /* prev / today / next / search / network / type+info / views */
-  grid-template-columns: auto auto auto 1fr 200px 240px auto;
-  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 10px;
   margin-bottom: 24px;
   padding: 18px;
   border: 1px solid var(--border);
   border-radius: 18px;
   background: linear-gradient(135deg, rgba(27, 16, 54, 0.95), rgba(8, 8, 18, 0.95));
 }
+
+/* Search grows to fill the row; the rest keep their natural size. */
+.controls > #search { flex: 1 1 240px; min-width: 200px; }
+#networkFilter { flex: 0 0 auto; min-width: 160px; }
+.type-filter-cell { flex: 0 1 auto; }
+.view-switcher { flex: 0 0 auto; margin-left: auto; }
 
 button, input, select {
   background: #0c0a18;
@@ -124,17 +129,18 @@ input::placeholder { color: #9b8bb7; }
 /* Activity-type dropdown paired with its info button */
 .type-filter-cell {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 8px;
+  min-width: 0;
 }
-.type-filter-cell select { flex: 1; min-width: 0; }
+.type-filter-cell select { flex: 1 1 auto; min-width: 0; }
 
-/* Round info (i) button */
+/* Round info (i) button — sized to match the input row height */
 .info-btn {
-  width: 42px;
-  height: 42px;
   flex: 0 0 auto;
-  border-radius: 999px;
+  width: 44px;
+  align-self: stretch;
+  border-radius: 12px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -143,6 +149,7 @@ input::placeholder { color: #9b8bb7; }
   font-size: 16px;
   padding: 0;
 }
+.info-btn:hover { border-color: var(--purple-soft); color: var(--purple-soft); }
 
 /* Info popover (hidden until toggled) — centered modal */
 .info-popover {
@@ -568,7 +575,9 @@ input::placeholder { color: #9b8bb7; }
 /* ---- Responsive -------------------------------------------- */
 @media (max-width: 900px) {
   header { flex-direction: column; align-items: flex-start; }
-  .controls { grid-template-columns: 1fr; }
+  /* On narrow screens let the view switcher wrap to its own line
+     rather than being pushed hard to the right. */
+  .view-switcher { margin-left: 0; }
   .day { height: 240px; }
   .event { font-size: 11px; }
   .list-view { grid-template-columns: 1fr; }
