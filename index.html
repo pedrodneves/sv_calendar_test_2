@@ -34,16 +34,19 @@
         <option value="">All Networks</option>
       </select>
 
-      <select id="typeFilter">
-        <option value="">All activity types</option>
-      </select>
+      <!-- Activity type dropdown with its info button right beside it -->
+      <div class="type-filter-cell">
+        <select id="typeFilter">
+          <option value="">All activity types</option>
+        </select>
+        <button class="info-btn" onclick="toggleInfo()" title="Activity type definitions">i</button>
+      </div>
 
-      <!-- View switcher (Month / Week / Day) + info button -->
+      <!-- View switcher (Month / Week / Day) -->
       <div class="view-switcher">
         <button id="btnMonth" onclick="setView('month')">Month</button>
         <button id="btnWeek" onclick="setView('week')">Week</button>
         <button id="btnDay" onclick="setView('day')">Day</button>
-        <button class="info-btn" onclick="toggleInfo()" title="About this calendar">i</button>
       </div>
     </section>
 
@@ -582,6 +585,9 @@
 
         day.innerHTML = `<div class="day-number">${dayLabel}</div>`;
 
+        // Only in-month days open the day view.
+        if (dayDate.getMonth() === month) makeDayClickable(day, key);
+
         eventsOnDate(key).forEach(event => day.appendChild(renderEvent(event)));
         root.appendChild(day);
       }
@@ -615,6 +621,8 @@
         if (key === todayKey) day.classList.add('today');
 
         day.innerHTML = `<div class="day-number">${dayDate.getDate()}</div>`;
+
+        makeDayClickable(day, key);
 
         eventsOnDate(key).forEach(event =>
           day.appendChild(renderEvent(event, { showConnected: true })));
@@ -853,6 +861,20 @@
       if (!keepList) { listMode = false; currentView = 'day'; }
       render();
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Make a Month/Week day cell open its Day view when clicked.
+    // Clicks on interactive children (e.g. the connected-event jump
+    // button) are ignored so those keep their own behaviour.
+    function makeDayClickable(dayEl, key) {
+      dayEl.classList.add('clickable');
+      dayEl.title = 'Open day view';
+
+      dayEl.addEventListener('click', event => {
+        // Let buttons/links inside the cell handle their own clicks.
+        if (event.target.closest('button, a, .jump-btn')) return;
+        jumpToDate(key);
+      });
     }
 
     // Show/hide the info modal (popover + backdrop together).
