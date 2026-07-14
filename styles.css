@@ -80,8 +80,8 @@ h1 { margin: 0; font-size: 38px; letter-spacing: -1px; }
 /* ---- Controls bar ------------------------------------------ */
 .controls {
   display: grid;
-  /* prev / today / next / search / network / type / info */
-  grid-template-columns: auto auto auto 1fr 200px 200px auto;
+  /* prev / today / next / search / network / type+info / views */
+  grid-template-columns: auto auto auto 1fr 200px 240px auto;
   gap: 10px;
   align-items: center;
   margin-bottom: 24px;
@@ -121,10 +121,19 @@ input::placeholder { color: #9b8bb7; }
   color: #ffffff;
 }
 
+/* Activity-type dropdown paired with its info button */
+.type-filter-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.type-filter-cell select { flex: 1; min-width: 0; }
+
 /* Round info (i) button */
 .info-btn {
   width: 42px;
   height: 42px;
+  flex: 0 0 auto;
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
@@ -250,6 +259,13 @@ input::placeholder { color: #9b8bb7; }
 .day.today {
   border-color: var(--purple-soft);
   box-shadow: 0 0 18px rgba(201, 156, 255, 0.25);
+}
+
+/* Clickable day cells (Month + Week views) open the Day view */
+.day.clickable { cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+.day.clickable:hover {
+  border-color: var(--purple-soft);
+  box-shadow: 0 0 16px rgba(201, 156, 255, 0.28);
 }
 
 .day-number {
