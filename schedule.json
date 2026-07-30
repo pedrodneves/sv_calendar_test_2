@@ -5130,7 +5130,7 @@
     "category": "general"
   },
   {
-    "title": "?????????????? ????????????????? ??????? ?????????????????????",
+    "title": "Minimum Versions for Validators:",
     "start": "2026-06-02",
     "end": "2026-06-02",
     "description": "",
@@ -5140,7 +5140,7 @@
     "category": "general"
   },
   {
-    "title": "??????:",
+    "title": "Splice.",
     "start": "2026-06-02",
     "end": "2026-06-02",
     "description": "",
@@ -5180,7 +5180,7 @@
     "category": "general"
   },
   {
-    "title": "?????? .????:",
+    "title": "Splice .dars:",
     "start": "2026-06-02",
     "end": "2026-06-02",
     "description": "",
@@ -5190,7 +5190,7 @@
     "category": "general"
   },
   {
-    "title": "D?e?v?N?e?t?:?",
+    "title": "DevNet:",
     "start": "2026-06-02",
     "end": "2026-06-02",
     "description": "",
@@ -5260,7 +5260,7 @@
     "category": "general"
   },
   {
-    "title": "T?e?s?t?N?e?t?:?",
+    "title": "TestNet:",
     "start": "2026-06-02",
     "end": "2026-06-02",
     "description": "",
@@ -5330,7 +5330,7 @@
     "category": "general"
   },
   {
-    "title": "M?a?i?n?N?e?t?:?",
+    "title": "MainNet:",
     "start": "2026-06-02",
     "end": "2026-06-02",
     "description": "",
@@ -5470,7 +5470,7 @@
     "category": "general"
   },
   {
-    "title": "?????????????? ????????????????? ??????? ?????????????????????",
+    "title": "Minimum Versions for Validators:",
     "start": "2026-06-09",
     "end": "2026-06-09",
     "description": "",
@@ -5480,7 +5480,7 @@
     "category": "general"
   },
   {
-    "title": "??????:",
+    "title": "Splice:",
     "start": "2026-06-09",
     "end": "2026-06-09",
     "description": "",
@@ -5520,7 +5520,7 @@
     "category": "general"
   },
   {
-    "title": "?????? .????:",
+    "title": "Splice .dars:",
     "start": "2026-06-09",
     "end": "2026-06-09",
     "description": "",
@@ -5530,7 +5530,7 @@
     "category": "general"
   },
   {
-    "title": "D?e?v?N?e?t?:?",
+    "title": "DevNet:",
     "start": "2026-06-09",
     "end": "2026-06-09",
     "description": "",
@@ -5600,7 +5600,7 @@
     "category": "general"
   },
   {
-    "title": "T?e?s?t?N?e?t?:?",
+    "title": "TestNet:",
     "start": "2026-06-09",
     "end": "2026-06-09",
     "description": "",
@@ -5670,7 +5670,7 @@
     "category": "general"
   },
   {
-    "title": "M?a?i?n?N?e?t?:?",
+    "title": "MainNet:",
     "start": "2026-06-09",
     "end": "2026-06-09",
     "description": "",
