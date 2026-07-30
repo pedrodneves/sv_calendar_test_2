@@ -1,8 +1,18 @@
 [
   {
-    "title": "DevNet upgrades to Splice 0.7.0",
-    "start": "2026-08-04",
-    "end": "2026-08-04",
+    "title": "Cut splice release 0.7.1",
+    "start": "2026-08-06",
+    "end": "2026-08-06",
+    "description": "Topology freeze starts August 7th, 24 hours before LSU",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.7.1",
+    "start": "2026-08-10",
+    "end": "2026-08-10",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -10,9 +20,9 @@
     "category": "general"
   },
   {
-    "title": "TestNet upgrades to Splice 0.6.14",
-    "start": "2026-08-04",
-    "end": "2026-08-04",
+    "title": "TestNet upgrades to Splice 0.7.0",
+    "start": "2026-08-10",
+    "end": "2026-08-10",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -20,49 +30,9 @@
     "category": "general"
   },
   {
-    "title": "MainNet upgrades to Splice 0.6.13",
-    "start": "2026-08-04",
-    "end": "2026-08-04",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "DevNet Breaking API Change: Deprecated TransferCommand functionality removed from validator app from DevNet. If you see validator logs involving TransferCommandSendTrigger you are still using it an...",
-    "start": "2026-08-04",
-    "end": "2026-08-04",
-    "description": "",
-    "status": "Approved",
-    "network": "DevNet",
-    "type": "Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "MainNet Topology Freeze 9am US Eastern / 1300 UTC",
-    "start": "2026-08-07",
-    "end": "2026-08-07",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "MainNet LSU to adopt CantonBFT-based synchronizers",
-    "start": "2026-08-08 14:00",
-    "end": "2026-08-08 14:00",
-    "description": "Topology freeze starts August 7th, 24 hours before LSU",
-    "status": "Approved",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
     "title": "MainNet upgrades to Splice 0.6.14",
-    "start": "2026-08-11",
-    "end": "2026-08-11",
+    "start": "2026-08-10",
+    "end": "2026-08-10",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
@@ -71,12 +41,22 @@
   },
   {
     "title": "TestNet Breaking API Change: Deprecated TransferCommand functionality removed from validator app from TestNet. Migrate to token standard transfers before this date.",
-    "start": "2026-08-11",
-    "end": "2026-08-11",
+    "start": "2026-08-10",
+    "end": "2026-08-10",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
     "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "Deprecated TransferCommand functionality removed from validator app from TestNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
+    "start": "2026-08-10",
+    "end": "2026-08-10",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
@@ -86,33 +66,23 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Configuration Change",
+    "type": "",
     "category": "general"
   },
   {
-    "title": "DevNet upgrades to Splice 0.7.1",
-    "start": "2026-08-11",
-    "end": "2026-08-11",
+    "title": "Cut splice release 0.7.2",
+    "start": "2026-08-13",
+    "end": "2026-08-13",
     "description": "",
     "status": "Approved",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "TestNet upgrades to Splice 0.7.0",
-    "start": "2026-08-11",
-    "end": "2026-08-11",
-    "description": "",
-    "status": "Approved",
-    "network": "TestNet",
-    "type": "Weekly Upgrades",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
     "title": "DevNet upgrades to Splice 0.7.2",
-    "start": "2026-08-18",
-    "end": "2026-08-18",
+    "start": "2026-08-17",
+    "end": "2026-08-17",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -121,8 +91,8 @@
   },
   {
     "title": "TestNet upgrades to Splice 0.7.1",
-    "start": "2026-08-18",
-    "end": "2026-08-18",
+    "start": "2026-08-17",
+    "end": "2026-08-17",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -131,8 +101,8 @@
   },
   {
     "title": "MainNet upgrades to Splice 0.7.0",
-    "start": "2026-08-18",
-    "end": "2026-08-18",
+    "start": "2026-08-17",
+    "end": "2026-08-17",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
@@ -140,9 +110,9 @@
     "category": "general"
   },
   {
-    "title": "MainNet Breaking API Change: Deprecated TransferCommand functionality removed from validator app from MainNet. Migrate to token standard transfers before this date.",
-    "start": "2026-08-18",
-    "end": "2026-08-18",
+    "title": "MainNet Breaking API Change:",
+    "start": "2026-08-17",
+    "end": "2026-08-17",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
@@ -150,9 +120,19 @@
     "category": "general"
   },
   {
+    "title": "Deprecated TransferCommand functionality removed from validator app from MainNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
+    "start": "2026-08-17",
+    "end": "2026-08-17",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet: Validators must upgrade to 0.7.x",
-    "start": "2026-08-18",
-    "end": "2026-08-18",
+    "start": "2026-08-17",
+    "end": "2026-08-17",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -190,9 +170,9 @@
     "category": "general"
   },
   {
-    "title": "DevNet LSU (0.7)",
-    "start": "2026-08-18 14:00",
-    "end": "2026-08-18 14:00",
+    "title": "DevNet: LSU (0.7)",
+    "start": "2026-08-19",
+    "end": "2026-08-19",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -200,29 +180,19 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Validators must upgrade to 0.7.x",
-    "start": "2026-08-25",
-    "end": "2026-08-25",
+    "title": "Cut splice release 0.7.3",
+    "start": "2026-08-20",
+    "end": "2026-08-20",
     "description": "",
     "status": "Approved",
-    "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "TestNet New Daml models effective (0.7)",
-    "start": "2026-08-25",
-    "end": "2026-08-25",
-    "description": "",
-    "status": "Approved",
-    "network": "TestNet",
+    "network": "",
     "type": "",
     "category": "general"
   },
   {
     "title": "DevNet upgrades to Splice 0.7.3",
-    "start": "2026-08-25",
-    "end": "2026-08-25",
+    "start": "2026-08-24",
+    "end": "2026-08-24",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -231,8 +201,8 @@
   },
   {
     "title": "TestNet upgrades to Splice 0.7.2",
-    "start": "2026-08-25",
-    "end": "2026-08-25",
+    "start": "2026-08-24",
+    "end": "2026-08-24",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -241,12 +211,22 @@
   },
   {
     "title": "MainNet upgrades to Splice 0.7.1",
-    "start": "2026-08-25",
-    "end": "2026-08-25",
+    "start": "2026-08-24",
+    "end": "2026-08-24",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Validators must upgrade to 0.7.x",
+    "start": "2026-08-24",
+    "end": "2026-08-24",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
     "category": "general"
   },
   {
@@ -270,6 +250,16 @@
     "category": "general"
   },
   {
+    "title": "TestNet New Daml models effective (0.7)",
+    "start": "2026-08-25",
+    "end": "2026-08-25",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "TestNet LSU (0.7) (+ adopt CantonBFT-based synchronizers)",
     "start": "2026-08-26 14:00",
     "end": "2026-08-26 14:00",
@@ -280,9 +270,29 @@
     "category": "general"
   },
   {
+    "title": "Topology freeze starts Aug 25, 24 hours before LSU",
+    "start": "2026-08-26",
+    "end": "2026-08-26",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Cut splice release 0.7.4",
+    "start": "2026-08-27",
+    "end": "2026-08-27",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.7.4",
-    "start": "2026-09-01",
-    "end": "2026-09-01",
+    "start": "2026-08-31",
+    "end": "2026-08-31",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -291,8 +301,8 @@
   },
   {
     "title": "TestNet upgrades to Splice 0.7.3",
-    "start": "2026-09-01",
-    "end": "2026-09-01",
+    "start": "2026-08-31",
+    "end": "2026-08-31",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -301,12 +311,22 @@
   },
   {
     "title": "MainNet upgrades to Splice 0.7.2",
-    "start": "2026-09-01",
-    "end": "2026-09-01",
+    "start": "2026-08-31",
+    "end": "2026-08-31",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Validators must upgrade to 0.7.x",
+    "start": "2026-08-31",
+    "end": "2026-08-31",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
     "category": "general"
   },
   {
@@ -330,22 +350,12 @@
     "category": "general"
   },
   {
-    "title": "MainNet Topology Freeze 9am US Eastern / 1300 UTC (starts September 4, 24 hours before LSU)",
-    "start": "2026-09-01",
-    "end": "2026-09-01",
+    "title": "Cut splice release 0.8.0",
+    "start": "2026-09-03",
+    "end": "2026-09-03",
     "description": "",
     "status": "Approved",
-    "network": "MainNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "MainNet: Validators must upgrade to 0.7.x",
-    "start": "2026-09-01",
-    "end": "2026-09-01",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
+    "network": "",
     "type": "",
     "category": "general"
   },
@@ -360,9 +370,39 @@
     "category": "general"
   },
   {
+    "title": "9 am US Eastern / 1300 UTC:",
+    "start": "2026-09-05",
+    "end": "2026-09-05",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet LSU (0.7)  (+ adopt CantonBFT-based synchronizers)",
+    "start": "2026-09-05",
+    "end": "2026-09-05",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Topology freeze starts September 4, 24 hours before LSU",
+    "start": "2026-09-05",
+    "end": "2026-09-05",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.8.0",
-    "start": "2026-09-08",
-    "end": "2026-09-08",
+    "start": "2026-09-07",
+    "end": "2026-09-07",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -371,8 +411,8 @@
   },
   {
     "title": "TestNet upgrades to Splice 0.7.4",
-    "start": "2026-09-08",
-    "end": "2026-09-08",
+    "start": "2026-09-07",
+    "end": "2026-09-07",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -381,8 +421,8 @@
   },
   {
     "title": "MainNet upgrades to Splice 0.7.3",
-    "start": "2026-09-08",
-    "end": "2026-09-08",
+    "start": "2026-09-07",
+    "end": "2026-09-07",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
@@ -400,9 +440,19 @@
     "category": "general"
   },
   {
+    "title": "Cut splice release 0.8.1",
+    "start": "2026-09-10",
+    "end": "2026-09-10",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.8.1",
-    "start": "2026-09-15",
-    "end": "2026-09-15",
+    "start": "2026-09-14",
+    "end": "2026-09-14",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -411,8 +461,8 @@
   },
   {
     "title": "TestNet upgrades to Splice 0.8.0",
-    "start": "2026-09-15",
-    "end": "2026-09-15",
+    "start": "2026-09-14",
+    "end": "2026-09-14",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -421,8 +471,8 @@
   },
   {
     "title": "MainNet upgrades to Splice 0.7.4",
-    "start": "2026-09-15",
-    "end": "2026-09-15",
+    "start": "2026-09-14",
+    "end": "2026-09-14",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
@@ -430,9 +480,19 @@
     "category": "general"
   },
   {
+    "title": "Cut splice release 0.8.2",
+    "start": "2026-09-17",
+    "end": "2026-09-17",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.8.2",
-    "start": "2026-09-22",
-    "end": "2026-09-22",
+    "start": "2026-09-21",
+    "end": "2026-09-21",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -441,8 +501,8 @@
   },
   {
     "title": "TestNet upgrades to Splice 0.8.1",
-    "start": "2026-09-22",
-    "end": "2026-09-22",
+    "start": "2026-09-21",
+    "end": "2026-09-21",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -451,12 +511,22 @@
   },
   {
     "title": "MainNet upgrades to Splice 0.8.0",
-    "start": "2026-09-22",
-    "end": "2026-09-22",
+    "start": "2026-09-21",
+    "end": "2026-09-21",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Validators must upgrade to 0.8.x",
+    "start": "2026-09-21",
+    "end": "2026-09-21",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
     "category": "general"
   },
   {
@@ -480,16 +550,6 @@
     "category": "general"
   },
   {
-    "title": "DevNet: Validators must upgrade to 0.8.x",
-    "start": "2026-09-22",
-    "end": "2026-09-22",
-    "description": "",
-    "status": "Approved",
-    "network": "DevNet",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet LSU (0.8)",
     "start": "2026-09-23",
     "end": "2026-09-23",
@@ -500,9 +560,19 @@
     "category": "general"
   },
   {
+    "title": "Cut splice release 0.8.3",
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.8.3",
-    "start": "2026-09-29",
-    "end": "2026-09-29",
+    "start": "2026-09-28",
+    "end": "2026-09-28",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
@@ -511,8 +581,8 @@
   },
   {
     "title": "TestNet upgrades to Splice 0.8.2",
-    "start": "2026-09-29",
-    "end": "2026-09-29",
+    "start": "2026-09-28",
+    "end": "2026-09-28",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -521,12 +591,22 @@
   },
   {
     "title": "MainNet upgrades to Splice 0.8.1",
-    "start": "2026-09-29",
-    "end": "2026-09-29",
+    "start": "2026-09-28",
+    "end": "2026-09-28",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Validators must upgrade to 0.8.x",
+    "start": "2026-09-28",
+    "end": "2026-09-28",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
     "category": "general"
   },
   {
@@ -560,16 +640,6 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Validators must upgrade to 0.8.x",
-    "start": "2026-09-29",
-    "end": "2026-09-29",
-    "description": "",
-    "status": "Approved",
-    "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "TestNet LSU (0.8)",
     "start": "2026-09-30",
     "end": "2026-09-30",
@@ -580,22 +650,12 @@
     "category": "general"
   },
   {
-    "title": "MainNet new Daml models effective (0.8)",
-    "start": "2026-10-05",
-    "end": "2026-10-05",
+    "title": "Cut splice release 0.9.0",
+    "start": "2026-10-01",
+    "end": "2026-10-01",
     "description": "",
     "status": "Approved",
-    "network": "MainNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "MainNet Topology Freeze",
-    "start": "2026-10-05",
-    "end": "2026-10-05",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
+    "network": "",
     "type": "",
     "category": "general"
   },
@@ -611,8 +671,8 @@
   },
   {
     "title": "TestNet breaking config change (0.8)",
-    "start": "2026-10-05",
-    "end": "2026-10-05",
+    "start": "2026-10-06",
+    "end": "2026-10-06",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
@@ -620,9 +680,39 @@
     "category": "general"
   },
   {
-    "title": "MainNet LSU (0.8)",
+    "title": "MainNet new Daml models effective (0.8)",
     "start": "2026-10-06",
     "end": "2026-10-06",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Topology Freeze",
+    "start": "2026-10-09",
+    "end": "2026-10-09",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet LSU (0.8)",
+    "start": "2026-10-10",
+    "end": "2026-10-10",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Topology Freeze 9am US Eastern / 1300 UTC",
+    "start": "2026-08-07",
+    "end": "2026-08-07",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
@@ -5810,12 +5900,292 @@
     "category": "general"
   },
   {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲ ̲𝗳̲𝗼̲𝗿̲ ̲𝗩̲𝗮̲𝗹̲𝗶̲𝗱̲𝗮̲𝘁̲𝗼̲𝗿̲𝘀̲",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: 0.6.7",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: 0.6.5",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: 0.6.2",
+    "start": "2026-06-15",
+    "end": "2026-06-15",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "TestNet Topology Freeze 9am",
     "start": "2026-06-16",
     "end": "2026-06-16",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Daml models from Splice 0.6.7 effective (required for CIP-104)",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲.̲𝗱̲𝗮̲𝗿̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲ ̲.̲𝗱̲𝗮̲𝗿̲𝘀̲:̲",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "D̲e̲v̲N̲e̲t̲:̲",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.19",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.20",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.25",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.20",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.19",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "T̲e̲s̲t̲N̲e̲t̲:̲",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.18",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.19",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.24",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.19",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.18",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "M̲a̲i̲n̲N̲e̲t̲:̲",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.18",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.19",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.24",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.19",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.18",
+    "start": "2026-06-16",
+    "end": "2026-06-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
     "type": "",
     "category": "general"
   },
@@ -5850,6 +6220,36 @@
     "category": "general"
   },
   {
+    "title": "TestNet LSU pv34->pv35, validators must upgrade to >= 0.6.5 before the LSU.",
+    "start": "2026-06-17",
+    "end": "2026-06-17",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "Topology freeze starts June 16th, 24 hours before LSU",
+    "start": "2026-06-17",
+    "end": "2026-06-17",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Cut splice release 0.6.9",
+    "start": "2026-06-18",
+    "end": "2026-06-18",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.6.9",
     "start": "2026-06-22",
     "end": "2026-06-22",
@@ -5877,6 +6277,16 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲ ̲𝗳̲𝗼̲𝗿̲ ̲𝗩̲𝗮̲𝗹̲𝗶̲𝗱̲𝗮̲𝘁̲𝗼̲𝗿̲𝘀̲",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
@@ -5910,10 +6320,250 @@
     "category": "general"
   },
   {
+    "title": "DevNet: Dry-run of traffic-based app rewards begins",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Daml models from Splice 0.6.7 effective (required for CIP-104)",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲.̲𝗱̲𝗮̲𝗿̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲",
     "start": "2026-06-23",
     "end": "2026-06-23",
     "description": "amulet 0.1.18\namuletNameService 0.1.19\ndsoGovernance 0.1.24\nvalidatorLifecycle 0.1.7\nwallet 0.1.19\nwalletPayments 0.1.18",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "D̲e̲v̲N̲e̲t̲:̲",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.19",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.20",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.25",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.20",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.19",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "T̲e̲s̲t̲N̲e̲t̲:̲",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.19",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.20",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.25",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.20",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.19",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "M̲a̲i̲n̲N̲e̲t̲:̲",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.18",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.19",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.24",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.19",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.18",
+    "start": "2026-06-23",
+    "end": "2026-06-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Cut splice release 0.6.10",
+    "start": "2026-06-25",
+    "end": "2026-06-25",
+    "description": "",
     "status": "Approved",
     "network": "",
     "type": "",
@@ -5930,6 +6580,16 @@
     "category": "general"
   },
   {
+    "title": "9 am US Eastern / 1300 UTC:",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "MainNet LSU pv34->pv35, validators must upgrade to >= 0.6.5 before the LSU",
     "start": "2026-06-27 14:00",
     "end": "2026-06-27 14:00",
@@ -5937,6 +6597,16 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "Topology freeze starts June 26th, 24 hours before LSU",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
@@ -5980,6 +6650,286 @@
     "category": "general"
   },
   {
+    "title": "DevNet: 0.6.9",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: 0.6.7",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: 0.6.7",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Daml models from Splice 0.6.9 effective (required for CIP-119)",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Dry-run of traffic-based app rewards begins",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Daml models from Splice 0.6.7 effective (required for CIP-104)",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲.̲𝗱̲𝗮̲𝗿̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "D̲e̲v̲N̲e̲t̲:̲",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.20",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.21",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.26",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.21",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.20",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "T̲e̲s̲t̲N̲e̲t̲:̲",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.19",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.20",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.25",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.20",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.19",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "M̲a̲i̲n̲N̲e̲t̲:̲",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.19",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.20",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.25",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.20",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.19",
+    "start": "2026-06-30",
+    "end": "2026-06-30",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.6.11",
     "start": "2026-07-06",
     "end": "2026-07-06",
@@ -6010,6 +6960,16 @@
     "category": "general"
   },
   {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲ ̲𝗳̲𝗼̲𝗿̲ ̲𝗩̲𝗮̲𝗹̲𝗶̲𝗱̲𝗮̲𝘁̲𝗼̲𝗿̲𝘀̲",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet - Minimum Splice Versions for Validators",
     "start": "2026-07-06",
     "end": "2026-07-06",
@@ -6036,6 +6996,266 @@
     "description": "MainNet: 0.6.7",
     "status": "Approved",
     "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Daml models from Splice 0.6.9 effective (required for CIP-119)",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Traffic-based app rewards (CIP-104) goes live",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Dry-run of traffic-based app rewards begins",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲.̲𝗱̲𝗮̲𝗿̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "D̲e̲v̲N̲e̲t̲:̲",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.20",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.21",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.26",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.21",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.20",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "T̲e̲s̲t̲N̲e̲t̲:̲",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.20",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.21",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.26",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.21",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.20",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "M̲a̲i̲n̲N̲e̲t̲:̲",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.19",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.20",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.25",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.20",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.19",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Cut splice release 0.6.12",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "description": "",
+    "status": "Approved",
+    "network": "",
     "type": "",
     "category": "general"
   },
@@ -6070,6 +7290,286 @@
     "category": "general"
   },
   {
+    "title": "𝗠𝗶𝗻𝗶𝗺𝘂𝗺 𝗦𝗽𝗹𝗶𝗰𝗲 𝗩𝗲𝗿𝘀𝗶𝗼𝗻𝘀 𝗳𝗼𝗿 𝗩𝗮𝗹𝗶𝗱𝗮𝘁𝗼𝗿𝘀",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: 0.6.11",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: 0.6.9",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: 0.6.7",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: Daml models from Splice 0.6.11 effective (required for CIP-112)",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲.̲𝗱̲𝗮̲𝗿̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "D̲e̲v̲N̲e̲t̲:̲",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.21",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.22",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.27",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.8",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.22",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.21",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "T̲e̲s̲t̲N̲e̲t̲:̲",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.20",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.21",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.26",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.21",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.20",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "M̲a̲i̲n̲N̲e̲t̲:̲",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amulet 0.1.19",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "amuletNameService 0.1.20",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "dsoGovernance 0.1.25",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "validatorLifecycle 0.1.7",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "wallet 0.1.20",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "walletPayments 0.1.19",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Cut splice release 0.6.13",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.6.13",
     "start": "2026-07-20",
     "end": "2026-07-20",
@@ -6097,6 +7597,46 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲ ̲𝗳̲𝗼̲𝗿̲ ̲𝗩̲𝗮̲𝗹̲𝗶̲𝗱̲𝗮̲𝘁̲𝗼̲𝗿̲𝘀̲",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: 0.6.11",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: 0.6.11",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: 0.6.9",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
     "category": "general"
   },
   {
@@ -6130,6 +7670,16 @@
     "category": "general"
   },
   {
+    "title": "Cut splice release 0.6.14",
+    "start": "2026-07-23",
+    "end": "2026-07-23",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.6.14",
     "start": "2026-07-27",
     "end": "2026-07-27",
@@ -6157,6 +7707,16 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "𝗠̲𝗶̲𝗻̲𝗶̲𝗺̲𝘂̲𝗺̲ ̲𝗦̲𝗽̲𝗹̲𝗶̲𝗰̲𝗲̲ ̲𝗩̲𝗲̲𝗿̲𝘀̲𝗶̲𝗼̲𝗻̲𝘀̲ ̲𝗳̲𝗼̲𝗿̲ ̲𝗩̲𝗮̲𝗹̲𝗶̲𝗱̲𝗮̲𝘁̲𝗼̲𝗿̲𝘀̲",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
@@ -6180,22 +7740,12 @@
     "category": "general"
   },
   {
-    "title": "MainNet: Daml models from Splice 0.6.11 effective (required for CIP-112)",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
+    "title": "MainNet: 0.6.11",
+    "start": "2026-07-27",
+    "end": "2026-07-27",
     "description": "",
     "status": "Approved",
-    "network": "N/A",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "DevNet Minimum Splice Versions for Validators",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
-    "description": "DevNet 0.6.11",
-    "status": "Approved",
-    "network": "DevNet",
+    "network": "MainNet",
     "type": "",
     "category": "general"
   },
@@ -6206,66 +7756,106 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
-    "title": "DevNet upgrades to Splice 0.6.14",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
+    "title": "9 am US Eastern / 1300 UTC:",
+    "start": "2026-07-29",
+    "end": "2026-07-29",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: LSU to adopt CantonBFT-based synchronizers.",
+    "start": "2026-07-29",
+    "end": "2026-07-29",
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Weekly Upgrades",
+    "type": "",
     "category": "general"
   },
   {
-    "title": "MainNet: Traffic-based app rewards (CIP-104) go live",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
+    "title": "Topology freeze starts July 28th, 24 hours before LSU",
+    "start": "2026-07-29",
+    "end": "2026-07-29",
     "description": "",
     "status": "Approved",
-    "network": "MainNet",
-    "type": "Configuration Change",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
-    "title": "MainNet upgrades to Splice 0.6.12",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
+    "title": "Cut splice release 0.7.0",
+    "start": "2026-07-30",
+    "end": "2026-07-30",
     "description": "",
     "status": "Approved",
-    "network": "MainNet",
-    "type": "Weekly Upgrades",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
-    "title": "TestNet upgrades to Splice 0.6.13",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
+    "title": "DevNet upgrades to Splice 0.7.0",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.14",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Weekly Upgrades",
+    "type": "",
     "category": "general"
   },
   {
-    "title": "MainNet Minimum Splice Versions for Validators",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
-    "description": "MainNet 0.6.11",
+    "title": "MainNet upgrades to Splice 0.6.13",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "",
     "status": "Approved",
     "network": "MainNet",
     "type": "",
     "category": "general"
   },
   {
-    "title": "TestNet Minimum Splice Versions for Validators",
-    "start": "2026-07-28",
-    "end": "2026-07-28",
-    "description": "TestNet 0.6.11",
+    "title": "DevNet Breaking API Change:",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "",
     "status": "Approved",
-    "network": "TestNet",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "Deprecated TransferCommand functionality removed from validator app from DevNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "",
+    "status": "Approved",
+    "network": "",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet: 0.6.7 - Minimum Splice Versions for Validators",
+    "start": "2026-06-29",
+    "end": "2026-06-29",
+    "description": "TestNet: 0.6.7\nMainNet: 0.6.7",
+    "status": "Approved",
+    "network": "DevNet",
     "type": "",
     "category": "general"
   }
