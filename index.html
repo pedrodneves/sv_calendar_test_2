@@ -85,7 +85,7 @@
         <dd>Updates to the minimum required Splice validator version for each network.</dd>
 
         <dt>Protocol Upgrades (LSU)</dt>
-        <dd>Logical Synchronizer Upgrade protocol upgrades requiring a topology freeze.</dd>
+        <dd>Ledger Synchronization Unit protocol upgrades requiring a topology freeze.</dd>
 
         <dt>Weekly Upgrades</dt>
         <dd>Regularly scheduled Splice version upgrades across networks.</dd>
@@ -187,10 +187,11 @@
       return parts.length > 1 ? parts[1] : '';
     }
 
-    // Human label for the time tag: "All day" or e.g. "2:00 PM".
+    // Time label for an event, e.g. "2:00 PM". All-day events (no time
+    // component) return '' so no time tag is shown for them.
     function timeLabel(event) {
       const t = eventTimePart(event);
-      if (!t) return 'All day';
+      if (!t) return '';
 
       const [h, m] = t.split(':').map(Number);
       const suffix = h >= 12 ? 'PM' : 'AM';
@@ -413,11 +414,15 @@
       const meta = document.createElement('div');
       meta.className = 'meta-row';
 
-      // Time or "All day" tag
-      const timeTag = document.createElement('span');
-      timeTag.className = 'tag time-tag';
-      timeTag.textContent = timeLabel(event);
-      meta.appendChild(timeTag);
+      // Time tag — shown only for events that have an actual time
+      // (all-day events get no tag).
+      const timeText = timeLabel(event);
+      if (timeText) {
+        const timeTag = document.createElement('span');
+        timeTag.className = 'tag time-tag';
+        timeTag.textContent = timeText;
+        meta.appendChild(timeTag);
+      }
 
       // Network tag
       if (network) {
@@ -473,10 +478,13 @@
         const cMeta = document.createElement('div');
         cMeta.className = 'meta-row';
 
-        const cTime = document.createElement('span');
-        cTime.className = 'tag time-tag';
-        cTime.textContent = timeLabel(connected);
-        cMeta.appendChild(cTime);
+        const cTimeText = timeLabel(connected);
+        if (cTimeText) {
+          const cTime = document.createElement('span');
+          cTime.className = 'tag time-tag';
+          cTime.textContent = cTimeText;
+          cMeta.appendChild(cTime);
+        }
 
         const cNet = normalizeNetwork(connected.network);
         if (cNet) {
