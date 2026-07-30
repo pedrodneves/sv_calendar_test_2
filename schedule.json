@@ -156,7 +156,7 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Validator Upgrades to Splice",
+    "type": "",
     "category": "general"
   },
   {
@@ -166,7 +166,7 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Daml Models",
+    "type": "",
     "category": "general"
   },
   {
@@ -176,7 +176,7 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Topology Freeze",
+    "type": "",
     "category": "general"
   },
   {
@@ -206,7 +206,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Validator Upgrades to Splice",
+    "type": "",
     "category": "general"
   },
   {
@@ -216,7 +216,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Daml Models",
+    "type": "",
     "category": "general"
   },
   {
@@ -266,7 +266,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Topology Freeze",
+    "type": "",
     "category": "general"
   },
   {
@@ -326,7 +326,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Daml Models",
+    "type": "",
     "category": "general"
   },
   {
@@ -336,7 +336,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Topology Freeze",
+    "type": "",
     "category": "general"
   },
   {
@@ -346,7 +346,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Validator Upgrades to Splice",
+    "type": "",
     "category": "general"
   },
   {
@@ -466,7 +466,7 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Topology Freeze",
+    "type": "",
     "category": "general"
   },
   {
@@ -476,7 +476,7 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Daml Models",
+    "type": "",
     "category": "general"
   },
   {
@@ -486,7 +486,7 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Validator Upgrades to Splice",
+    "type": "",
     "category": "general"
   },
   {
@@ -546,7 +546,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Daml Models",
+    "type": "",
     "category": "general"
   },
   {
@@ -556,7 +556,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Topology Freeze",
+    "type": "",
     "category": "general"
   },
   {
@@ -566,7 +566,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Validator Upgrades to Splice",
+    "type": "",
     "category": "general"
   },
   {
@@ -586,7 +586,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Daml Models",
+    "type": "",
     "category": "general"
   },
   {
@@ -596,7 +596,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Topology Freeze",
+    "type": "",
     "category": "general"
   },
   {
@@ -606,7 +606,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Validator Upgrades to Splice",
+    "type": "",
     "category": "general"
   },
   {
@@ -636,7 +636,7 @@
     "description": "DevNet: 0.6.7\nTestNet: 0.6.5\nMainNet: 0.6.5",
     "status": "Approved",
     "network": "",
-    "type": "Splice Daml Model Effectivity",
+    "type": "",
     "category": "general"
   },
   {
@@ -676,7 +676,7 @@
     "description": "required for CIP-104",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Daml Models",
+    "type": "",
     "category": "general"
   },
   {
@@ -686,7 +686,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Topology Freeze",
+    "type": "",
     "category": "general"
   },
   {
@@ -696,7 +696,7 @@
     "description": "Splice .dars: \nDevNet: \namulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19\n\nTestNet: \namulet 0.1.18\namuletNameService 0.1.19\ndsoGovernance 0.1.24\nvalidatorLifecycle 0.1.7\nwallet 0.1.19\nwalletPayments 0.1.18\n\nMainNet:\namulet 0.1.18\namuletNameService 0.1.19\ndsoGovernance 0.1.24\nvalidatorLifecycle 0.1.7\nwallet 0.1.19\nwalletPayments 0.1.18",
     "status": "Approved",
     "network": "",
-    "type": "Minimum Splice Dar versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -726,7 +726,7 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -736,7 +736,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -746,7 +746,7 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -776,7 +776,7 @@
     "description": "amulet 0.1.18\namuletNameService 0.1.19\ndsoGovernance 0.1.24\nvalidatorLifecycle 0.1.7\nwallet 0.1.19\nwalletPayments 0.1.18",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Dar versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -786,7 +786,7 @@
     "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Minimum Splice Dar versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -796,7 +796,7 @@
     "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Dar versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -856,7 +856,7 @@
     "description": "DevNet: 0.6.7\nTestNet: 0.6.7\nMainNet: 0.6.7",
     "status": "Approved",
     "network": "",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -866,7 +866,7 @@
     "description": "TestNet: 0.6.7\nMainNet: 0.6.7",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -896,7 +896,7 @@
     "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Dar versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -906,7 +906,7 @@
     "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19\n\nTestNet: \namulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19\n\nMainNet:\namulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Minimum Splice Dar versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -926,7 +926,7 @@
     "description": "amulet 0.1.19\namuletNameService 0.1.20\ndsoGovernance 0.1.25\nvalidatorLifecycle 0.1.7\nwallet 0.1.20\nwalletPayments 0.1.19",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Dar versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -956,7 +956,7 @@
     "description": "MainNet: 0.6.7",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -966,7 +966,7 @@
     "description": "TestNet: 0.6.7",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -986,7 +986,7 @@
     "description": "DevNet: 0.6.9 (To Be Confirmed)",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1076,7 +1076,7 @@
     "description": "TestNet: 0.6.9 (To Be Confirmed)",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1086,7 +1086,7 @@
     "description": "MainNet: 0.6.7",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1126,7 +1126,7 @@
     "description": "DevNet 0.6.11",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1156,7 +1156,7 @@
     "description": "MainNet 0.6.9",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1166,7 +1166,7 @@
     "description": "TestNet 0.6.11",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1196,7 +1196,7 @@
     "description": "TestNet: 0.6.9 (To Be Confirmed)",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1216,7 +1216,7 @@
     "description": "MainNet: 0.6.9 (To Be Confirmed)",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1246,7 +1246,7 @@
     "description": "",
     "status": "Approved",
     "network": "N/A",
-    "type": "Cut Splice Release",
+    "type": "",
     "category": "general"
   },
   {
@@ -1256,7 +1256,7 @@
     "description": "DevNet 0.6.11",
     "status": "Approved",
     "network": "DevNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1316,7 +1316,7 @@
     "description": "MainNet 0.6.11",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   },
   {
@@ -1326,7 +1326,7 @@
     "description": "TestNet 0.6.11",
     "status": "Approved",
     "network": "TestNet",
-    "type": "Minimum Splice Versions",
+    "type": "",
     "category": "general"
   }
 ]
