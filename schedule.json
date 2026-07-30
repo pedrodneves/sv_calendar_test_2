@@ -1266,7 +1266,7 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "Splice Daml Model Effectivity",
+    "type": "Minimum Splice Versions",
     "category": "general"
   },
   {
