@@ -636,7 +636,7 @@
     "description": "DevNet: 0.6.7\nTestNet: 0.6.5\nMainNet: 0.6.5",
     "status": "Approved",
     "network": "",
-    "type": "Minimum Splice Versions",
+    "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
   {
