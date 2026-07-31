@@ -364,6 +364,16 @@ input::placeholder { color: #9b8bb7; }
   margin-bottom: 6px;
 }
 
+/* Inline links to CIPs (Canton Improvement Proposals) */
+.cip-link {
+  color: var(--purple-soft);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: inherit;
+  white-space: nowrap;
+}
+.cip-link:hover { color: #ffffff; }
+
 .meta-row {
   display: flex;
   flex-wrap: wrap;
