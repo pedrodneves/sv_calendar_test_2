@@ -150,16 +150,6 @@
     "category": "general"
   },
   {
-    "title": "DevNet: LSU (0.7)",
-    "start": "2026-08-19",
-    "end": "2026-08-19",
-    "description": "",
-    "status": "Approved",
-    "network": "DevNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.7.3",
     "start": "2026-08-24",
     "end": "2026-08-24",
