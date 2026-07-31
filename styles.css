@@ -108,6 +108,9 @@ button, input, select {
 button { cursor: pointer; }
 input::placeholder { color: #9b8bb7; }
 
+/* Give the native dropdown chevron room from the right border */
+select { padding-right: 32px; }
+
 /* View switcher (Month / Week / Day) grouped on the right */
 .view-switcher {
   display: inline-flex;
@@ -360,7 +363,7 @@ input::placeholder { color: #9b8bb7; }
 }
 
 .title {
-  font-weight: 900;
+  font-weight: 600;
   margin-bottom: 6px;
 }
 
