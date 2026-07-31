@@ -382,6 +382,71 @@
        Splits multi-line descriptions and detects "DevNet:" style
        sub-headings so per-network blocks render nicely.
        --------------------------------------------------------- */
+    /* ---------------------------------------------------------
+       CIP AUTO-LINKING
+       Turns CIP references into links to the canton-foundation CIPs
+       repo, and rewrites every reference to the canonical padded form
+       "CIP-XXXX" as the visible label. Handles the styles in the data:
+         "CIP-104"      -> CIP-0104
+         "CIP 64"       -> CIP-0064
+         "CIP-0066"     -> CIP-0066
+         "CIPs 47 & 56" -> CIP-0047 & CIP-0056   (each linked)
+       Multi-number runs keep their separator (& / and / , / /) between
+       the rewritten links. Input is escaped first, so the returned HTML
+       is safe for innerHTML.
+       --------------------------------------------------------- */
+    function escapeHTML(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    // Anchor for one CIP number, always shown as padded "CIP-XXXX".
+    function cipAnchor(digits) {
+      const padded = digits.padStart(4, '0');   // 47 -> 0047
+      const url = `https://github.com/canton-foundation/cips/blob/main/cip-${padded}/cip-${padded}.md`;
+      return `<a class="cip-link" href="${url}" target="_blank" rel="noopener noreferrer">CIP-${padded}</a>`;
+    }
+
+    function linkifyCIPs(text) {
+      // Escape first. "&" becomes "&amp;", so the separator alternation
+      // below also matches the escaped ampersand.
+      const safe = escapeHTML(text);
+
+      // Match a "CIP"/"CIPs" prefix plus one or more numbers, optionally
+      // joined by & / and / , / /. The entire run is replaced.
+      const pattern = /\bCIPs?\b[-\s]?\d+(?:\s*(?:&amp;|&|and|,|\/)\s*\d+)*/gi;
+
+      return safe.replace(pattern, run => {
+        // Pull the numbers out in order.
+        const numbers = run.match(/\d+/g) || [];
+
+        // Pull the separators between numbers (everything that isn't the
+        // leading "CIP(s)" prefix or the numbers themselves), so we can
+        // stitch the rewritten links back together with the same joiners.
+        const separators = [];
+        const sepPattern = /\d+\s*(&amp;|&|and|,|\/)\s*(?=\d)/gi;
+        let m;
+        while ((m = sepPattern.exec(run)) !== null) {
+          separators.push(m[1]);
+        }
+
+        // Rebuild: CIP-XXXX <sep> CIP-YYYY ...
+        // Commas attach directly (no leading space); other separators
+        // ("&", "and", "/") get spaces on both sides.
+        let out = cipAnchor(numbers[0]);
+        for (let i = 1; i < numbers.length; i++) {
+          const sep = separators[i - 1] || '&amp;';
+          const joiner = sep === ',' ? `${sep} ` : ` ${sep} `;
+          out += joiner + cipAnchor(numbers[i]);
+        }
+        return out;
+      });
+    }
+
     function appendDescription(parent, description) {
       const lines = String(description || '')
         .split(/\r?\n|\r/)
@@ -411,7 +476,7 @@
 
         const div = document.createElement('div');
         div.className = 'description';
-        div.textContent = line;
+        div.innerHTML = linkifyCIPs(line);
 
         (section || parent).appendChild(div);
       });
@@ -434,7 +499,7 @@
       // Title
       const title = document.createElement('div');
       title.className = 'title';
-      title.textContent = event.title || 'Untitled event';
+      title.innerHTML = linkifyCIPs(event.title || 'Untitled event');
       eventDiv.appendChild(title);
 
       // Meta row: time/all-day, network, activity type, link badge
@@ -498,7 +563,7 @@
 
         const cTitle = document.createElement('div');
         cTitle.className = 'connected-title';
-        cTitle.textContent = connected.title || 'Untitled event';
+        cTitle.innerHTML = linkifyCIPs(connected.title || 'Untitled event');
         card.appendChild(cTitle);
 
         // Small meta row on the counterpart
