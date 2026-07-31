@@ -1,15 +1,5 @@
 [
   {
-    "title": "Cut splice release 0.7.1",
-    "start": "2026-08-06",
-    "end": "2026-08-06",
-    "description": "Topology freeze starts August 7th, 24 hours before LSU",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.7.1",
     "start": "2026-08-10",
     "end": "2026-08-10",
@@ -43,20 +33,10 @@
     "title": "TestNet Breaking API Change: Deprecated TransferCommand functionality removed from validator app from TestNet. Migrate to token standard transfers before this date.",
     "start": "2026-08-10",
     "end": "2026-08-10",
-    "description": "",
+    "description": "Deprecated TransferCommand functionality removed from validator app from TestNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
     "status": "Approved",
     "network": "TestNet",
     "type": "Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "Deprecated TransferCommand functionality removed from validator app from TestNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
-    "start": "2026-08-10",
-    "end": "2026-08-10",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
     "category": "general"
   },
   {
@@ -66,16 +46,6 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.7.2",
-    "start": "2026-08-13",
-    "end": "2026-08-13",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -113,20 +83,10 @@
     "title": "MainNet Breaking API Change:",
     "start": "2026-08-17",
     "end": "2026-08-17",
-    "description": "",
+    "description": "Deprecated TransferCommand functionality removed from validator app from MainNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
     "status": "Approved",
     "network": "MainNet",
     "type": "Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "Deprecated TransferCommand functionality removed from validator app from MainNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
-    "start": "2026-08-17",
-    "end": "2026-08-17",
-    "description": "",
-    "status": "Approved",
-    "network": "DevNet",
-    "type": "",
     "category": "general"
   },
   {
@@ -177,16 +137,6 @@
     "status": "Approved",
     "network": "DevNet",
     "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.7.3",
-    "start": "2026-08-20",
-    "end": "2026-08-20",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
     "category": "general"
   },
   {
@@ -280,16 +230,6 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.7.4",
-    "start": "2026-08-27",
-    "end": "2026-08-27",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.7.4",
     "start": "2026-08-31",
     "end": "2026-08-31",
@@ -350,52 +290,12 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.8.0",
-    "start": "2026-09-03",
-    "end": "2026-09-03",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "MainNet LSU (0.7) (+ adopt CantonBFT-based synchronizers)",
-    "start": "2026-09-04 14:00",
-    "end": "2026-09-04 14:00",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "9 am US Eastern / 1300 UTC:",
-    "start": "2026-09-05",
-    "end": "2026-09-05",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "MainNet LSU (0.7)  (+ adopt CantonBFT-based synchronizers)",
+    "title": "MainNet LSU (0.7 Required)  (+ adopt CantonBFT-based synchronizers)",
     "start": "2026-09-05",
     "end": "2026-09-05",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Topology freeze starts September 4, 24 hours before LSU",
-    "start": "2026-09-05",
-    "end": "2026-09-05",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -440,16 +340,6 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.8.1",
-    "start": "2026-09-10",
-    "end": "2026-09-10",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.8.1",
     "start": "2026-09-14",
     "end": "2026-09-14",
@@ -477,16 +367,6 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.8.2",
-    "start": "2026-09-17",
-    "end": "2026-09-17",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
     "category": "general"
   },
   {
@@ -557,16 +437,6 @@
     "status": "Approved",
     "network": "DevNet",
     "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.8.3",
-    "start": "2026-09-24",
-    "end": "2026-09-24",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
     "category": "general"
   },
   {
@@ -650,16 +520,6 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.9.0",
-    "start": "2026-10-01",
-    "end": "2026-10-01",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "MainNet: Validators must upgrade to 0.8.x",
     "start": "2026-10-05",
     "end": "2026-10-05",
@@ -711,12 +571,52 @@
   },
   {
     "title": "MainNet Topology Freeze 9am US Eastern / 1300 UTC",
-    "start": "2026-08-07",
-    "end": "2026-08-07",
+    "start": "2026-09-04",
+    "end": "2026-09-04",
     "description": "",
     "status": "Approved",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.7.0",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "",
+    "status": "Approved",
+    "network": "DevNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.6.14",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.6.13",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "",
+    "category": "general"
+  },
+  {
+    "title": "DevNet Breaking API Change:",
+    "start": "2026-08-03",
+    "end": "2026-08-03",
+    "description": "Deprecated TransferCommand functionality removed from validator app from DevNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
+    "status": "Approved",
+    "network": "",
+    "type": "",
     "category": "general"
   },
   {
@@ -736,16 +636,6 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice Release 0.4.1",
-    "start": "2025-06-05",
-    "end": "2025-06-05",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -810,16 +700,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice Release 0.4.2",
-    "start": "2025-06-19",
-    "end": "2025-06-19",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "Deploy Splice 0.4.2 on DevNet",
     "start": "2025-06-23",
     "end": "2025-06-23",
@@ -870,16 +750,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice Release 0.4.3",
-    "start": "2025-06-26",
-    "end": "2025-06-26",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "Deploy Splice 0.4.3 on DevNet",
     "start": "2025-06-30",
     "end": "2025-06-30",
@@ -916,16 +786,6 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice Release 0.4.4",
-    "start": "2025-07-03",
-    "end": "2025-07-03",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -973,16 +833,6 @@
     "title": "packageConfig \"amulet\": \"0.1.9\" and associated packages (see 0.4.0 release notes)",
     "start": "2025-07-08",
     "end": "2025-07-08",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice Release 0.4.5",
-    "start": "2025-07-10",
-    "end": "2025-07-10",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -1050,16 +900,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice Release 0.4.7",
-    "start": "2025-07-17",
-    "end": "2025-07-17",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "Deploy Splice 0.4.7 on DevNet (skipping 0.4.6)",
     "start": "2025-07-21",
     "end": "2025-07-21",
@@ -1103,16 +943,6 @@
     "title": "dsoGovernance: 0.1.13. See 0.4.4 release notes",
     "start": "2025-07-23",
     "end": "2025-07-23",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice Release 0.4.8",
-    "start": "2025-07-24",
-    "end": "2025-07-24",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -1180,16 +1010,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice Release 0.4.9",
-    "start": "2025-07-31",
-    "end": "2025-07-31",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "Deploy Splice 0.4.9 on DevNet",
     "start": "2025-08-04",
     "end": "2025-08-04",
@@ -1216,16 +1036,6 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice Release 0.4.10",
-    "start": "2025-08-07",
-    "end": "2025-08-07",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -1260,16 +1070,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice Release 0.4.11",
-    "start": "2025-08-14",
-    "end": "2025-08-14",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "Deploy Splice 0.4.11 on DevNet",
     "start": "2025-08-18",
     "end": "2025-08-18",
@@ -1296,16 +1096,6 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice Release 0.4.12",
-    "start": "2025-08-21",
-    "end": "2025-08-21",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -1356,16 +1146,6 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice Release 0.4.13 (contains bugfixes for issues encountered on DevNet on Aug 26, 2025, including dsoGovernance 0.1.18)",
-    "start": "2025-08-28",
-    "end": "2025-08-28",
-    "description": "",
-    "status": "Approved",
-    "network": "DevNet",
     "type": "",
     "category": "general"
   },
@@ -2940,16 +2720,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.5.5",
-    "start": "2026-01-08",
-    "end": "2026-01-08",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "January 10th - 11th: Round 78,840: Minting Curve halving. Reward shares shift from SVs to app providers",
     "start": "2026-01-09",
     "end": "2026-01-09",
@@ -3000,16 +2770,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.5.6",
-    "start": "2026-01-15",
-    "end": "2026-01-15",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet SVs upgrade to Splice 0.5.6, 𝗗̲𝗲̲𝘃̲𝗡̲𝗲̲𝘁̲ ̲𝗩̲𝗮̲𝗹̲𝗶̲𝗱̲𝗮̲𝘁̲𝗼̲𝗿̲𝘀̲ ̲𝘀̲𝘁̲𝗮̲𝘆̲ ̲𝗼̲𝗻̲ ̲𝟬̲.̲𝟱̲.̲𝟱̲",
     "start": "2026-01-19",
     "end": "2026-01-19",
@@ -3036,16 +2796,6 @@
     "description": "",
     "status": "Approved",
     "network": "MainNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice release 0.5.7",
-    "start": "2026-01-22",
-    "end": "2026-01-22",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -3110,16 +2860,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.5.9",
-    "start": "2026-01-29",
-    "end": "2026-01-29",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "Note: for this particular Daml model upgrade, Validator nodes on Splice 0.5.5 will continue to operate correctly after the new Daml models take effect. Upgrades to 0.5.8 are still recommended and will be required for future Daml model upgrades.",
     "start": "2026-01-29",
     "end": "2026-01-29",
@@ -3166,16 +2906,6 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice release 0.5.10",
-    "start": "2026-02-05",
-    "end": "2026-02-05",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -3250,16 +2980,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.5.11",
-    "start": "2026-02-12",
-    "end": "2026-02-12",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.5.11",
     "start": "2026-02-16",
     "end": "2026-02-16",
@@ -3296,16 +3016,6 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice release 0.5.12",
-    "start": "2026-02-19",
-    "end": "2026-02-19",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -3360,16 +3070,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.5.13",
-    "start": "2026-02-26",
-    "end": "2026-02-26",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.5.13",
     "start": "2026-03-02",
     "end": "2026-03-02",
@@ -3406,16 +3106,6 @@
     "description": "",
     "status": "Approved",
     "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice release 0.5.14",
-    "start": "2026-03-05",
-    "end": "2026-03-05",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -3460,16 +3150,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.5.15",
-    "start": "2026-03-12",
-    "end": "2026-03-12",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "Development Fund Manager Party (dfm) value changes from null to an effective value on DevNet",
     "start": "2026-03-16",
     "end": "2026-03-16",
@@ -3510,16 +3190,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.5.16",
-    "start": "2026-03-19",
-    "end": "2026-03-19",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.5.16",
     "start": "2026-03-23",
     "end": "2026-03-23",
@@ -3547,16 +3217,6 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice release 0.5.17",
-    "start": "2026-03-26",
-    "end": "2026-03-26",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
     "category": "general"
   },
   {
@@ -3673,16 +3333,6 @@
     "title": "Features enabled: add support for weighted featured app markers.",
     "start": "2026-03-31",
     "end": "2026-03-31",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut Splice release 0.5.18 (last release on 0.5.x / Canton 3.4)",
-    "start": "2026-04-02",
-    "end": "2026-04-02",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -4040,16 +3690,6 @@
     "category": "general"
   },
   {
-    "title": "Cut Splice release 0.6.1",
-    "start": "2026-04-27",
-    "end": "2026-04-27",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.6.1",
     "start": "2026-04-28",
     "end": "2026-04-28",
@@ -4077,16 +3717,6 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.2",
-    "start": "2026-04-30",
-    "end": "2026-04-30",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
     "category": "general"
   },
   {
@@ -4223,16 +3853,6 @@
     "title": "Features enabled: 24-hour submission delay for Canton Coin, new fields on AmuletRules are used in CC transfers",
     "start": "2026-05-05",
     "end": "2026-05-05",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.3",
-    "start": "2026-05-07",
-    "end": "2026-05-07",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -4540,16 +4160,6 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.6.4",
-    "start": "2026-05-13",
-    "end": "2026-05-13",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "SVs confirm LSU deployment automation in place and tested",
     "start": "2026-05-18",
     "end": "2026-05-18",
@@ -4833,16 +4443,6 @@
     "title": "walletPayments 0.1.17",
     "start": "2026-05-19",
     "end": "2026-05-19",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.5",
-    "start": "2026-05-22",
-    "end": "2026-05-22",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -5153,16 +4753,6 @@
     "title": "walletPayments 0.1.17",
     "start": "2026-05-26",
     "end": "2026-05-26",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.6",
-    "start": "2026-05-28",
-    "end": "2026-05-28",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -5496,16 +5086,6 @@
     "description": "",
     "status": "Approved",
     "network": "DevNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.7",
-    "start": "2026-06-04",
-    "end": "2026-06-04",
-    "description": "",
-    "status": "Approved",
-    "network": "",
     "type": "",
     "category": "general"
   },
@@ -5853,16 +5433,6 @@
     "title": "Topology freeze starts June 9th, 24 hours before LSU",
     "start": "2026-06-10",
     "end": "2026-06-10",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.8",
-    "start": "2026-06-11",
-    "end": "2026-06-11",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -6240,16 +5810,6 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.6.9",
-    "start": "2026-06-18",
-    "end": "2026-06-18",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.6.9",
     "start": "2026-06-22",
     "end": "2026-06-22",
@@ -6553,16 +6113,6 @@
     "title": "walletPayments 0.1.18",
     "start": "2026-06-23",
     "end": "2026-06-23",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.10",
-    "start": "2026-06-25",
-    "end": "2026-06-25",
     "description": "",
     "status": "Approved",
     "network": "",
@@ -7250,16 +6800,6 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.6.12",
-    "start": "2026-07-09",
-    "end": "2026-07-09",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.6.12",
     "start": "2026-07-13",
     "end": "2026-07-13",
@@ -7560,16 +7100,6 @@
     "category": "general"
   },
   {
-    "title": "Cut splice release 0.6.13",
-    "start": "2026-07-16",
-    "end": "2026-07-16",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.6.13",
     "start": "2026-07-20",
     "end": "2026-07-20",
@@ -7667,16 +7197,6 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.6.14",
-    "start": "2026-07-23",
-    "end": "2026-07-23",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
     "category": "general"
   },
   {
@@ -7783,66 +7303,6 @@
     "title": "Topology freeze starts July 28th, 24 hours before LSU",
     "start": "2026-07-29",
     "end": "2026-07-29",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Cut splice release 0.7.0",
-    "start": "2026-07-30",
-    "end": "2026-07-30",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "DevNet upgrades to Splice 0.7.0",
-    "start": "2026-08-03",
-    "end": "2026-08-03",
-    "description": "",
-    "status": "Approved",
-    "network": "DevNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "TestNet upgrades to Splice 0.6.14",
-    "start": "2026-08-03",
-    "end": "2026-08-03",
-    "description": "",
-    "status": "Approved",
-    "network": "TestNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "MainNet upgrades to Splice 0.6.13",
-    "start": "2026-08-03",
-    "end": "2026-08-03",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "DevNet Breaking API Change:",
-    "start": "2026-08-03",
-    "end": "2026-08-03",
-    "description": "",
-    "status": "Approved",
-    "network": "",
-    "type": "",
-    "category": "general"
-  },
-  {
-    "title": "Deprecated TransferCommand functionality removed from validator app from DevNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
-    "start": "2026-08-03",
-    "end": "2026-08-03",
     "description": "",
     "status": "Approved",
     "network": "",
