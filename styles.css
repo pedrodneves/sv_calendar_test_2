@@ -96,6 +96,9 @@ h1 { margin: 0; font-size: 38px; letter-spacing: -1px; }
 .type-filter-cell { flex: 0 1 auto; }
 .view-switcher { flex: 0 0 auto; margin-left: auto; }
 
+/* Date navigation buttons stay together as a group. */
+.nav-group { display: flex; gap: 10px; flex: 0 0 auto; }
+
 button, input, select {
   background: #0c0a18;
   border: 1px solid rgba(201, 156, 255, 0.45);
@@ -602,9 +605,27 @@ select::-ms-expand { display: none; }
 /* ---- Responsive -------------------------------------------- */
 @media (max-width: 900px) {
   header { flex-direction: column; align-items: flex-start; }
-  /* On narrow screens let the view switcher wrap to its own line
-     rather than being pushed hard to the right. */
-  .view-switcher { margin-left: 0; }
+
+  /* Reflow the controls so the date navigation and the Month/Week/Day
+     switcher share the bottom line. Search + filters take the upper
+     rows (lower order); nav-group and view-switcher come last (higher
+     order) and land together on their own line. A full-width break
+     element forces them onto that shared line. */
+  .controls > #search { order: 1; }
+  #networkFilter { order: 2; }
+  .type-filter-cell { order: 3; }
+  .nav-group { order: 5; }
+  .view-switcher { order: 6; margin-left: auto; }
+
+  /* Zero-height full-width spacer that forces a line break before the
+     nav-group + view-switcher row. */
+  .controls::before {
+    content: "";
+    order: 4;
+    flex-basis: 100%;
+    height: 0;
+  }
+
   .day { height: 240px; }
   .event { font-size: 11px; }
   .list-view { grid-template-columns: 1fr; }
