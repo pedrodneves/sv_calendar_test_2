@@ -30,7 +30,7 @@
     "category": "general"
   },
   {
-    "title": "TestNet Breaking API Change: Deprecated TransferCommand functionality removed from validator app from TestNet. Migrate to token standard transfers before this date.",
+    "title": "TestNet Breaking API Change",
     "start": "2026-08-10",
     "end": "2026-08-10",
     "description": "Deprecated TransferCommand functionality removed from validator app from TestNet. If you see validator logs involving TransferCommandSendTrigger you are still using it and should migrate to token standard transfers before this date.",
