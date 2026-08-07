@@ -197,16 +197,66 @@
       return parts.length > 1 ? parts[1] : '';
     }
 
-    // Time label for an event, e.g. "2:00 PM". All-day events (no time
-    // component) return '' so no time tag is shown for them.
+    // Time label for an event, converted from US Eastern (the timezone
+    // all board times are entered in) to the VIEWER'S local timezone.
+    //
+    // Board times have no zone attached (e.g. "2026-08-26 14:00"), and we
+    // treat that wall-clock time as America/New_York. JavaScript can't
+    // parse a string "as New York time" directly, so we:
+    //   1. find New York's UTC offset on that specific date (this is
+    //      where EDT vs EST / daylight saving is resolved automatically),
+    //   2. build the exact UTC instant that offset implies,
+    //   3. format that instant in the viewer's own local timezone.
+    // All-day events (no time component) return '' so no tag is shown.
+    const EASTERN_TZ = 'America/New_York';
+
+    // Return the UTC-offset in minutes for a given timezone at a given
+    // UTC instant. (e.g. New York in summer -> -240, in winter -> -300)
+    function tzOffsetMinutes(date, timeZone) {
+      // Format the instant in the target zone, then read it back as if it
+      // were UTC; the difference is the zone's offset at that moment.
+      const dtf = new Intl.DateTimeFormat('en-US', {
+        timeZone,
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false
+      });
+      const parts = {};
+      dtf.formatToParts(date).forEach(p => { parts[p.type] = p.value; });
+      let hour = parts.hour === '24' ? 0 : Number(parts.hour);
+      const asUTC = Date.UTC(
+        Number(parts.year), Number(parts.month) - 1, Number(parts.day),
+        hour, Number(parts.minute), Number(parts.second)
+      );
+      return (asUTC - date.getTime()) / 60000;
+    }
+
+    // Convert a New York wall-clock "YYYY-MM-DD" + "HH:MM" to the exact
+    // UTC Date instant it represents.
+    function easternWallClockToDate(dateStr, timeStr) {
+      const [y, mo, d] = dateStr.split('-').map(Number);
+      const [h, mi] = timeStr.split(':').map(Number);
+
+      // First guess: treat the wall-clock numbers as if they were UTC.
+      const guess = new Date(Date.UTC(y, mo - 1, d, h, mi));
+      // How far New York is from UTC at that instant, then correct.
+      const offset = tzOffsetMinutes(guess, EASTERN_TZ);   // e.g. -240
+      // The real UTC instant is the wall-clock minus the offset.
+      return new Date(guess.getTime() - offset * 60000);
+    }
+
     function timeLabel(event) {
       const t = eventTimePart(event);
       if (!t) return '';
 
-      const [h, m] = t.split(':').map(Number);
-      const suffix = h >= 12 ? 'PM' : 'AM';
-      const hour12 = ((h + 11) % 12) + 1;         // 0->12, 13->1, etc.
-      return `${hour12}:${String(m).padStart(2, '0')} ${suffix}`;
+      // Interpret the stored time as New York time, get the true instant,
+      // then format it in the viewer's local zone (browser default).
+      const instant = easternWallClockToDate(eventDatePart(event), t);
+
+      return instant.toLocaleTimeString(undefined, {
+        hour: 'numeric',
+        minute: '2-digit'
+      });
     }
 
     // Build a "YYYY-MM-DD" key for a Date object (local time).
