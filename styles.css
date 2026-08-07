@@ -417,6 +417,25 @@ select::-ms-expand { display: none; }
   border-left: 4px solid #16a34a;
 }
 
+/* "To Be Confirmed" events: subdued / muted so they read as tentative.
+   Desaturates whatever network color the card has, dims it, and switches
+   to a dashed border. The explicit "To Be Confirmed" tag (below) carries
+   the status in text so it doesn't depend on color. */
+.event.tbc {
+  filter: grayscale(0.7);
+  opacity: 0.7;
+  border-style: dashed;
+  border-left-style: dashed;
+}
+
+/* Explicit "To Be Confirmed" status tag */
+.tag.tbc-tag {
+  background: rgba(148, 163, 184, 0.25);
+  border-color: rgba(148, 163, 184, 0.7);
+  color: #e5e7eb;
+  font-style: italic;
+}
+
 .title {
   font-weight: 600;
   margin-bottom: 6px;
