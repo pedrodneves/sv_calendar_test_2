@@ -25,9 +25,12 @@
     </header>
 
     <section class="controls">
-      <button onclick="previousPeriod()">← Previous</button>
-      <button onclick="goToday()">Today</button>
-      <button onclick="nextPeriod()">Next →</button>
+      <!-- Date navigation, grouped so it can move as a unit on small screens -->
+      <div class="nav-group">
+        <button onclick="previousPeriod()">← Previous</button>
+        <button onclick="goToday()">Today</button>
+        <button onclick="nextPeriod()">Next →</button>
+      </div>
       <input id="search" placeholder="Search approved events..." />
 
       <select id="networkFilter">
