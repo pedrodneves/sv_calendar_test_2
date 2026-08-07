@@ -90,36 +90,51 @@ h1 { margin: 0; font-size: 38px; letter-spacing: -1px; }
   background: linear-gradient(135deg, rgba(27, 16, 54, 0.95), rgba(8, 8, 18, 0.95));
 }
 
-/* Top row: nav-group on the left, view-switcher on the right, always
-   aligned to the ends of their line. This pairing holds at every width,
-   so when things shrink the date nav stays lined up with Month/Week/Day. */
-.controls-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  flex: 1 1 auto;
-  order: 2;             /* nav+view row sits below the filters when wrapped */
-}
+/* Three flex children: nav-group, filter-group, view-switcher. */
+.nav-group     { display: flex; gap: 10px; flex: 0 0 auto; order: 2; }
+.view-switcher { flex: 0 0 auto; order: 3; }
 
-.nav-group { display: flex; gap: 10px; flex: 0 0 auto; }
-.view-switcher { flex: 0 0 auto; }
-
-/* Search + filters. Grows to fill; when the row is wide enough it sits
-   inline on the first line, and when space is tight it takes its own
-   full line above the nav/view row. */
 .filter-group {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  flex: 1 1 520px;
+  flex: 1 1 auto;
   min-width: 0;
   order: 1;
 }
 .filter-group #search { flex: 1 1 240px; min-width: 180px; }
 .filter-group #networkFilter { flex: 0 1 auto; min-width: 150px; }
 .filter-group .type-filter-cell { flex: 0 1 auto; }
+
+/* WIDE (default, one row):
+   nav (left) — filters (middle, growing) — view (right). The filter-group
+   grows to fill the space between nav and view. */
+@media (min-width: 1351px) {
+  .nav-group { order: 1; }
+  .filter-group { order: 2; }
+  .view-switcher { order: 3; }
+}
+
+/* NARROW (two rows): filters on their own top line, then nav-group and
+   view-switcher share the line below — nav pushed left, view pushed
+   right. A full-width break after the filter-group guarantees the split
+   so nothing ends up on a stray third row. */
+@media (max-width: 1350px) {
+  .filter-group { flex-basis: 100%; }        /* filters take the whole top line */
+  .view-switcher { margin-left: auto; }       /* push Month/Week/Day to the right */
+}
+
+/* VERY NARROW (phones): nav-group + view-switcher can no longer fit on
+   one line together, so give each its own full-width line and let the
+   buttons stretch to fill — keeps everything tidy instead of a ragged
+   half-wrapped row. */
+@media (max-width: 560px) {
+  .nav-group, .view-switcher { flex-basis: 100%; justify-content: space-between; }
+  .nav-group { display: flex; }
+  .view-switcher { display: flex; margin-left: 0; }
+  .nav-group button, .view-switcher button { flex: 1 1 auto; }
+}
 
 button, input, select {
   background: #0c0a18;
