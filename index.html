@@ -25,25 +25,14 @@
     </header>
 
     <section class="controls">
-      <!-- Top row: date navigation (left) and view switcher (right) always
-           share this line, aligned to the ends. -->
-      <div class="controls-top">
-        <div class="nav-group">
-          <button onclick="previousPeriod()">← Previous</button>
-          <button onclick="goToday()">Today</button>
-          <button onclick="nextPeriod()">Next →</button>
-        </div>
-
-        <!-- View switcher (Month / Week / Day) -->
-        <div class="view-switcher">
-          <button id="btnMonth" onclick="setView('month')">Month</button>
-          <button id="btnWeek" onclick="setView('week')">Week</button>
-          <button id="btnDay" onclick="setView('day')">Day</button>
-        </div>
+      <!-- Date navigation -->
+      <div class="nav-group">
+        <button onclick="previousPeriod()">← Previous</button>
+        <button onclick="goToday()">Today</button>
+        <button onclick="nextPeriod()">Next →</button>
       </div>
 
-      <!-- Search + filters. Sits inline to the right of the nav row when
-           there's room, and drops to its own line when space is tight. -->
+      <!-- Search + filters (grouped so they wrap together) -->
       <div class="filter-group">
         <input id="search" placeholder="Search approved events..." />
 
@@ -58,6 +47,13 @@
           </select>
           <button class="info-btn" onclick="toggleInfo()" title="Activity type definitions">i</button>
         </div>
+      </div>
+
+      <!-- View switcher (Month / Week / Day) -->
+      <div class="view-switcher">
+        <button id="btnMonth" onclick="setView('month')">Month</button>
+        <button id="btnWeek" onclick="setView('week')">Week</button>
+        <button id="btnDay" onclick="setView('day')">Day</button>
       </div>
     </section>
 
