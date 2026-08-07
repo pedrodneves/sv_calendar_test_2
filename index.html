@@ -25,31 +25,39 @@
     </header>
 
     <section class="controls">
-      <!-- Date navigation, grouped so it can move as a unit on small screens -->
-      <div class="nav-group">
-        <button onclick="previousPeriod()">← Previous</button>
-        <button onclick="goToday()">Today</button>
-        <button onclick="nextPeriod()">Next →</button>
+      <!-- Top row: date navigation (left) and view switcher (right) always
+           share this line, aligned to the ends. -->
+      <div class="controls-top">
+        <div class="nav-group">
+          <button onclick="previousPeriod()">← Previous</button>
+          <button onclick="goToday()">Today</button>
+          <button onclick="nextPeriod()">Next →</button>
+        </div>
+
+        <!-- View switcher (Month / Week / Day) -->
+        <div class="view-switcher">
+          <button id="btnMonth" onclick="setView('month')">Month</button>
+          <button id="btnWeek" onclick="setView('week')">Week</button>
+          <button id="btnDay" onclick="setView('day')">Day</button>
+        </div>
       </div>
-      <input id="search" placeholder="Search approved events..." />
 
-      <select id="networkFilter">
-        <option value="">All Networks</option>
-      </select>
+      <!-- Search + filters. Sits inline to the right of the nav row when
+           there's room, and drops to its own line when space is tight. -->
+      <div class="filter-group">
+        <input id="search" placeholder="Search approved events..." />
 
-      <!-- Activity type dropdown with its info button right beside it -->
-      <div class="type-filter-cell">
-        <select id="typeFilter">
-          <option value="">All activity types</option>
+        <select id="networkFilter">
+          <option value="">All Networks</option>
         </select>
-        <button class="info-btn" onclick="toggleInfo()" title="Activity type definitions">i</button>
-      </div>
 
-      <!-- View switcher (Month / Week / Day) -->
-      <div class="view-switcher">
-        <button id="btnMonth" onclick="setView('month')">Month</button>
-        <button id="btnWeek" onclick="setView('week')">Week</button>
-        <button id="btnDay" onclick="setView('day')">Day</button>
+        <!-- Activity type dropdown with its info button right beside it -->
+        <div class="type-filter-cell">
+          <select id="typeFilter">
+            <option value="">All activity types</option>
+          </select>
+          <button class="info-btn" onclick="toggleInfo()" title="Activity type definitions">i</button>
+        </div>
       </div>
     </section>
 
