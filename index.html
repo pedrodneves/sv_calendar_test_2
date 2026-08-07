@@ -551,7 +551,13 @@
       const network = normalizeNetwork(event.network);
       const colorClass = networkClass(network);
 
+      // "To Be Confirmed" items get a subdued, muted treatment plus an
+      // explicit tag (below) so the tentative status is clear without
+      // relying on color alone.
+      const isTBC = String(event.status || '').trim().toLowerCase() === 'to be confirmed';
+
       eventDiv.className = colorClass ? `event ${colorClass}` : 'event';
+      if (isTBC) eventDiv.classList.add('tbc');
 
       // Title
       const title = document.createElement('div');
@@ -562,6 +568,15 @@
       // Meta row: time/all-day, network, activity type, link badge
       const meta = document.createElement('div');
       meta.className = 'meta-row';
+
+      // "To Be Confirmed" tag — explicit text status, shown first so it's
+      // clear the item is tentative even without relying on color.
+      if (isTBC) {
+        const tbcTag = document.createElement('span');
+        tbcTag.className = 'tag tbc-tag';
+        tbcTag.textContent = 'To Be Confirmed';
+        meta.appendChild(tbcTag);
+      }
 
       // Time tag — shown only for events that have an actual time
       // (all-day events get no tag).
