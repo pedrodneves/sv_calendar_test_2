@@ -390,6 +390,10 @@ select::-ms-expand { display: none; }
   margin-bottom: 10px;
   font-size: 13px;
   line-height: 1.4;
+  /* Break long unbroken strings (e.g. "TransferCommandSendTrigger") so
+     they wrap inside the card instead of overflowing the border. */
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* Larger event cards in the roomy day/list views */
@@ -439,6 +443,8 @@ select::-ms-expand { display: none; }
 .title {
   font-weight: 600;
   margin-bottom: 6px;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* Inline links to CIPs (Canton Improvement Proposals) */
@@ -505,7 +511,7 @@ select::-ms-expand { display: none; }
   color: #ffffff;
 }
 
-.description { white-space: pre-wrap; }
+.description { white-space: pre-wrap; overflow-wrap: break-word; word-break: break-word; }
 
 /* ---- Network sub-sections inside a description ------------- */
 .network-section {
