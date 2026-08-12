@@ -1,25 +1,5 @@
 [
   {
-    "title": "TestNet: Traffic-based app rewards (CIP-104) goes live",
-    "start": "2026-08-11",
-    "end": "2026-08-11",
-    "description": "",
-    "status": "Approved",
-    "network": "TestNet",
-    "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "TestNet: Daml Models from Splice 0.6.12 take effect",
-    "start": "2026-08-11",
-    "end": "2026-08-11",
-    "description": "",
-    "status": "Approved",
-    "network": "TestNet",
-    "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.7.2",
     "start": "2026-08-17",
     "end": "2026-08-17",
@@ -7727,6 +7707,26 @@
     "status": "Approved",
     "network": "MainNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Daml Models from Splice 0.6.12 take effect",
+    "start": "2026-08-11",
+    "end": "2026-08-11",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Traffic-based app rewards (CIP-104) goes live",
+    "start": "2026-08-11",
+    "end": "2026-08-11",
+    "description": "",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Other Network Configuration Change",
     "category": "general"
   }
 ]
