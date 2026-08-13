@@ -40,7 +40,7 @@
     "category": "general"
   },
   {
-    "title": "DevNet: Validators must upgrade to 0.7.x",
+    "title": "DevNet: Validators must upgrade to 0.7.0",
     "start": "2026-08-17",
     "end": "2026-08-17",
     "description": "",
@@ -50,12 +50,12 @@
     "category": "general"
   },
   {
-    "title": "DevNet New Daml models effective (0.7)",
+    "title": "MainNet: Daml Models from Splice 0.6.12 take effect",
     "start": "2026-08-18",
     "end": "2026-08-18",
     "description": "Specific dar versions to be confirmed",
     "status": "Approved",
-    "network": "DevNet",
+    "network": "MainNet",
     "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
