@@ -760,6 +760,26 @@
     "category": "general"
   },
   {
+    "title": "MainNet: Topology Freeze (November 2026)",
+    "start": "2026-11-06",
+    "end": "2026-11-06",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Logical Synchronizer Upgrade (November 2026)",
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
     "title": "DevNet upgrades to Splice 0.10.1",
     "start": "2026-11-09",
     "end": "2026-11-09",
@@ -797,26 +817,6 @@
     "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "MainNet: Topology Freeze (November 2026)",
-    "start": "2026-11-13",
-    "end": "2026-11-13",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "MainNet: Logical Synchronizer Upgrade (November 2026)",
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
     "category": "general"
   },
   {
@@ -7800,16 +7800,6 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Miniimum Dar Versions",
-    "start": "2026-08-10",
-    "end": "2026-08-10",
-    "description": "TestNet Minimum Splice dar versions: \namulet   0.1.22\namuletNameService  0.1.23\ndsoGovernance   0.1.28\nvalidatorLifecycle   0.1.8\nwallet   0.1.23\nwalletPayments   0.1.22",
-    "status": "Approved",
-    "network": "TestNet",
-    "type": "Minimum Splice Dar versions",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.7.1",
     "start": "2026-08-10",
     "end": "2026-08-10",
@@ -7817,6 +7807,16 @@
     "status": "Approved",
     "network": "DevNet",
     "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet: Miniimum Dar Versions",
+    "start": "2026-08-10",
+    "end": "2026-08-10",
+    "description": "TestNet Minimum Splice dar versions: \namulet   0.1.22\namuletNameService  0.1.23\ndsoGovernance   0.1.28\nvalidatorLifecycle   0.1.8\nwallet   0.1.23\nwalletPayments   0.1.22",
+    "status": "Approved",
+    "network": "TestNet",
+    "type": "Minimum Splice Dar versions",
     "category": "general"
   },
   {
