@@ -54,19 +54,9 @@
     "start": "2026-08-18",
     "end": "2026-08-18",
     "description": "Specific dar versions to be confirmed",
-    "status": "To Be Confirmed",
+    "status": "Approved",
     "network": "DevNet",
     "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
-    "title": "MainNet: Traffic-based app rewards (CIP-104) goes live",
-    "start": "2026-08-18",
-    "end": "2026-08-18",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
-    "type": "Other Network Configuration Change",
     "category": "general"
   },
   {
@@ -107,6 +97,16 @@
     "status": "Approved",
     "network": "TestNet",
     "type": "Minimum Splice Versions",
+    "category": "general"
+  },
+  {
+    "title": "MainNet: Traffic-based app rewards (CIP-104) goes live",
+    "start": "2026-08-25",
+    "end": "2026-08-25",
+    "description": "",
+    "status": "Approved",
+    "network": "MainNet",
+    "type": "Other Network Configuration Change",
     "category": "general"
   },
   {
