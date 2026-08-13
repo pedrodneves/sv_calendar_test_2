@@ -120,11 +120,11 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Topology Freeze 9am US Eastern / 1300 UTC (starts Aug 25, 24 hours before LSU)",
+    "title": "TestNet: Topology Freeze CANCELLED",
     "start": "2026-08-25",
     "end": "2026-08-25",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
@@ -140,11 +140,11 @@
     "category": "general"
   },
   {
-    "title": "TestNet LSU (0.7) (+ adopt CantonBFT-based synchronizers)",
+    "title": "TestNet LSU (0.7 Required) CANCELLED",
     "start": "2026-08-26 14:00",
     "end": "2026-08-26 14:00",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
@@ -210,21 +210,21 @@
     "category": "general"
   },
   {
-    "title": "MainNet Topology Freeze 9am US Eastern / 1300 UTC",
+    "title": "MainNet Topology Freeze CANCELLED",
     "start": "2026-09-04",
     "end": "2026-09-04",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
   },
   {
-    "title": "MainNet LSU (0.7 Required) : Adopt CantonBFT-based synchronizers",
+    "title": "MainNet LSU (0.7 Required) : CANCELLED",
     "start": "2026-09-05",
     "end": "2026-09-05",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
@@ -520,7 +520,7 @@
     "category": "general"
   },
   {
-    "title": "MainNet Topology Freeze",
+    "title": "MainNet Topology Freeze (October 2026)",
     "start": "2026-10-09",
     "end": "2026-10-09",
     "description": "",
@@ -530,7 +530,7 @@
     "category": "general"
   },
   {
-    "title": "MainNet LSU (0.8)",
+    "title": "MainNet LSU (0.8) (October 2026)",
     "start": "2026-10-10",
     "end": "2026-10-10",
     "description": "",
