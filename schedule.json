@@ -50,16 +50,6 @@
     "category": "general"
   },
   {
-    "title": "MainNet: Traffic-based app rewards (CIP-104) goes live",
-    "start": "2026-08-25",
-    "end": "2026-08-25",
-    "description": "",
-    "status": "Approved",
-    "network": "MainNet",
-    "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
     "title": "DevNet Breaking Config Changes (0.7)",
     "start": "2026-08-25",
     "end": "2026-08-25",
@@ -84,7 +74,7 @@
     "start": "2026-08-31",
     "end": "2026-08-31",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -94,7 +84,7 @@
     "start": "2026-08-31",
     "end": "2026-08-31",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -104,7 +94,7 @@
     "start": "2026-08-31",
     "end": "2026-08-31",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -114,7 +104,7 @@
     "start": "2026-08-31",
     "end": "2026-08-31",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Minimum Splice Versions",
     "category": "general"
@@ -144,7 +134,7 @@
     "start": "2026-09-07",
     "end": "2026-09-07",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -154,7 +144,7 @@
     "start": "2026-09-07",
     "end": "2026-09-07",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -164,7 +154,7 @@
     "start": "2026-09-07",
     "end": "2026-09-07",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -184,7 +174,7 @@
     "start": "2026-09-14",
     "end": "2026-09-14",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -194,7 +184,7 @@
     "start": "2026-09-14",
     "end": "2026-09-14",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -204,7 +194,7 @@
     "start": "2026-09-14",
     "end": "2026-09-14",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -224,7 +214,7 @@
     "start": "2026-09-21",
     "end": "2026-09-21",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -234,7 +224,7 @@
     "start": "2026-09-21",
     "end": "2026-09-21",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -244,7 +234,7 @@
     "start": "2026-09-21",
     "end": "2026-09-21",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -254,13 +244,13 @@
     "start": "2026-09-21",
     "end": "2026-09-21",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Minimum Splice Versions",
     "category": "general"
   },
   {
-    "title": "DevNet Topology Freeze",
+    "title": "DevNet Topology Freeze (0.8 Required) (September 2026)",
     "start": "2026-09-22",
     "end": "2026-09-22",
     "description": "",
@@ -280,11 +270,11 @@
     "category": "general"
   },
   {
-    "title": "DevNet LSU (0.8)",
+    "title": "DevNet LSU (0.8 Required) (September 2026)",
     "start": "2026-09-23",
     "end": "2026-09-23",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
@@ -294,7 +284,7 @@
     "start": "2026-09-28",
     "end": "2026-09-28",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -304,7 +294,7 @@
     "start": "2026-09-28",
     "end": "2026-09-28",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -314,7 +304,7 @@
     "start": "2026-09-28",
     "end": "2026-09-28",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
@@ -324,7 +314,7 @@
     "start": "2026-09-28",
     "end": "2026-09-28",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Minimum Splice Versions",
     "category": "general"
@@ -334,7 +324,7 @@
     "start": "2026-09-29",
     "end": "2026-09-29",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Other Network Configuration Change",
     "category": "general"
@@ -344,27 +334,27 @@
     "start": "2026-09-29",
     "end": "2026-09-29",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
   {
-    "title": "TestNet Topology Freeze",
+    "title": "TestNet Topology Freeze (0.8 Required) (September 2026)",
     "start": "2026-09-29",
     "end": "2026-09-29",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
   },
   {
-    "title": "TestNet LSU (0.8)",
+    "title": "TestNet LSU (0.8 Required) (September 2026)",
     "start": "2026-09-30",
     "end": "2026-09-30",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
@@ -374,7 +364,7 @@
     "start": "2026-10-05",
     "end": "2026-10-05",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Minimum Splice Versions",
     "category": "general"
@@ -414,7 +404,7 @@
     "start": "2026-10-06",
     "end": "2026-10-06",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Other Network Configuration Change",
     "category": "general"
@@ -424,27 +414,27 @@
     "start": "2026-10-06",
     "end": "2026-10-06",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
   {
-    "title": "MainNet Topology Freeze (October 2026)",
+    "title": "MainNet Topology Freeze (0.8 Required) (October 2026)",
     "start": "2026-10-09",
     "end": "2026-10-09",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
   },
   {
-    "title": "MainNet LSU (0.8) (October 2026)",
+    "title": "MainNet LSU (0.8 Required) (October 2026)",
     "start": "2026-10-10",
     "end": "2026-10-10",
     "description": "",
-    "status": "Approved",
+    "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
     "category": "general"
@@ -530,7 +520,7 @@
     "category": "general"
   },
   {
-    "title": "DevNet: Topology Freeze begins",
+    "title": "DevNet: Topology Freeze begins (0.9.x Required) (October 2026)",
     "start": "2026-10-20",
     "end": "2026-10-20",
     "description": "",
@@ -540,7 +530,7 @@
     "category": "general"
   },
   {
-    "title": "DevNet: Logical Synchronizer Upgrade",
+    "title": "DevNet: Logical Synchronizer Upgrade (0.9.x Required) (October 2026)",
     "start": "2026-10-21",
     "end": "2026-10-21",
     "description": "",
@@ -600,7 +590,7 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Topology Freeze (October 2026)",
+    "title": "TestNet: Topology Freeze (0.9.x Required) (October 2026)",
     "start": "2026-10-27",
     "end": "2026-10-27",
     "description": "",
@@ -610,7 +600,7 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Logical Synchronizer Upgrade",
+    "title": "TestNet: Logical Synchronizer Upgrade (0.9.x Required) (October 2026)",
     "start": "2026-10-28",
     "end": "2026-10-28",
     "description": "",
@@ -670,7 +660,7 @@
     "category": "general"
   },
   {
-    "title": "MainNet: Topology Freeze (November 2026)",
+    "title": "MainNet: Topology Freeze (0.9.x Required) (November 2026)",
     "start": "2026-11-06",
     "end": "2026-11-06",
     "description": "",
@@ -680,7 +670,7 @@
     "category": "general"
   },
   {
-    "title": "MainNet: Logical Synchronizer Upgrade (November 2026)",
+    "title": "MainNet: Logical Synchronizer Upgrade (0.9.x Required) (November 2026)",
     "start": "2026-11-07",
     "end": "2026-11-07",
     "description": "",
@@ -770,7 +760,7 @@
     "category": "general"
   },
   {
-    "title": "DevNet: Topology Freeze (November 2026)",
+    "title": "DevNet: Topology Freeze (0.10.x Required) (November 2026)",
     "start": "2026-11-17",
     "end": "2026-11-17",
     "description": "",
@@ -780,7 +770,7 @@
     "category": "general"
   },
   {
-    "title": "DevNet: Logical Synchronizer Upgrade (November 2026)",
+    "title": "DevNet: Logical Synchronizer Upgrade (0.10.x Required) (November 2026)",
     "start": "2026-11-18",
     "end": "2026-11-18",
     "description": "",
@@ -840,7 +830,7 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Topology Freeze (November 2026)",
+    "title": "TestNet: Topology Freeze (0.10.x Required) (November 2026)",
     "start": "2026-11-24",
     "end": "2026-11-24",
     "description": "",
@@ -850,7 +840,7 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Logical Synchronizer Upgrade (November 2026)",
+    "title": "TestNet: Logical Synchronizer Upgrade (0.10.x Required) (November 2026)",
     "start": "2026-11-25",
     "end": "2026-11-25",
     "description": "",
@@ -920,7 +910,7 @@
     "category": "general"
   },
   {
-    "title": "MainNet: Topology Freeze (December 2026)",
+    "title": "MainNet: Topology Freeze (0.10.x Required) (December 2026)",
     "start": "2026-12-11",
     "end": "2026-12-11",
     "description": "",
@@ -930,7 +920,7 @@
     "category": "general"
   },
   {
-    "title": "MainNet: Logical Synchronizer Upgrade (December 2026)",
+    "title": "MainNet: Logical Synchronizer Upgrade (0.10.x Required) (December 2026)",
     "start": "2026-12-12",
     "end": "2026-12-12",
     "description": "",
