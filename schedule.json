@@ -70,16 +70,6 @@
     "category": "general"
   },
   {
-    "title": "TestNet: Topology Freeze CANCELLED",
-    "start": "2026-08-25",
-    "end": "2026-08-25",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
     "title": "TestNet New Daml models effective (0.7)",
     "start": "2026-08-25",
     "end": "2026-08-25",
@@ -87,16 +77,6 @@
     "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
-    "title": "TestNet LSU (0.7 Required) CANCELLED",
-    "start": "2026-08-26 14:00",
-    "end": "2026-08-26 14:00",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Protocol Upgrades (LSU)",
     "category": "general"
   },
   {
@@ -157,26 +137,6 @@
     "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
-    "title": "MainNet Topology Freeze CANCELLED",
-    "start": "2026-09-04",
-    "end": "2026-09-04",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "MainNet LSU (0.7 Required) : CANCELLED",
-    "start": "2026-09-05",
-    "end": "2026-09-05",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
     "category": "general"
   },
   {
