@@ -1,45 +1,5 @@
 [
   {
-    "title": "DevNet upgrades to Splice 0.8.0",
-    "start": "2026-09-07",
-    "end": "2026-09-07",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "MainNet breaking config change (0.7.x Required)",
-    "start": "2026-09-08",
-    "end": "2026-09-08",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "DevNet upgrades to Splice 0.8.1",
-    "start": "2026-09-14",
-    "end": "2026-09-14",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "TestNet upgrades to Splice 0.8.0",
-    "start": "2026-09-14",
-    "end": "2026-09-14",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
     "title": "DevNet: Daml Models supporting Token Standard V1 Expire (are unvetted)",
     "start": "2026-09-15",
     "end": "2026-09-15",
@@ -47,46 +7,6 @@
     "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "DevNet upgrades to Splice 0.8.2",
-    "start": "2026-09-21",
-    "end": "2026-09-21",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "TestNet upgrades to Splice 0.8.1",
-    "start": "2026-09-21",
-    "end": "2026-09-21",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "MainNet upgrades to Splice 0.8.0",
-    "start": "2026-09-21",
-    "end": "2026-09-21",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "DevNet: Validators must upgrade to 0.8.x",
-    "start": "2026-09-21",
-    "end": "2026-09-21",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Minimum Splice Versions",
     "category": "general"
   },
   {
@@ -117,46 +37,6 @@
     "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "DevNet upgrades to Splice 0.8.3",
-    "start": "2026-09-28",
-    "end": "2026-09-28",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "TestNet upgrades to Splice 0.8.2",
-    "start": "2026-09-28",
-    "end": "2026-09-28",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "MainNet upgrades to Splice 0.8.1",
-    "start": "2026-09-28",
-    "end": "2026-09-28",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "TestNet: Validators must upgrade to 0.8.x",
-    "start": "2026-09-28",
-    "end": "2026-09-28",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Minimum Splice Versions",
     "category": "general"
   },
   {
@@ -200,42 +80,12 @@
     "category": "general"
   },
   {
-    "title": "MainNet: Validators must upgrade to 0.8.x",
-    "start": "2026-10-05",
-    "end": "2026-10-05",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Minimum Splice Versions",
-    "category": "general"
-  },
-  {
     "title": "DevNet Upgrades to Splice 0.9.0",
     "start": "2026-10-05",
     "end": "2026-10-05",
     "description": "",
     "status": "To Be Confirmed",
     "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "TestNet Upgrades to Splice 0.8.3",
-    "start": "2026-10-05",
-    "end": "2026-10-05",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "MainNet upgrades to Splice 0.8.2",
-    "start": "2026-10-05",
-    "end": "2026-10-05",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
@@ -296,16 +146,6 @@
     "description": "",
     "status": "To Be Confirmed",
     "network": "TestNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "MainNet Upgrades to Splice 0.8.3",
-    "start": "2026-10-12",
-    "end": "2026-10-12",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
