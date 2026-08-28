@@ -1,15 +1,5 @@
 [
   {
-    "title": "DevNet: Daml Models supporting Token Standard V1 Expire (are unvetted)",
-    "start": "2026-09-15",
-    "end": "2026-09-15",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
     "title": "DevNet Topology Freeze (0.8.x Required) (September 2026)",
     "start": "2026-09-22",
     "end": "2026-09-22",
