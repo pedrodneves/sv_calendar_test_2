@@ -490,6 +490,26 @@
     "category": "general"
   },
   {
+    "title": "TestNet upgrades to Splice 0.10.4",
+    "start": "2026-12-07",
+    "end": "2026-12-07",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.10.3",
+    "start": "2026-12-07",
+    "end": "2026-12-07",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
     "title": "MainNet: Breaking configuration changes introduced by Splice 0.10.x take effect",
     "start": "2026-12-08",
     "end": "2026-12-08",
@@ -517,6 +537,16 @@
     "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.10.4",
+    "start": "2027-01-11",
+    "end": "2027-01-11",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
     "category": "general"
   }
 ]
