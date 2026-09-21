@@ -1,45 +1,5 @@
 [
   {
-    "title": "TestNet Topology Freeze (0.8.x Required) (September 2026)",
-    "start": "2026-09-29 14:00",
-    "end": "2026-09-29 14:00",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "TestNet LSU (0.8.x Required) (September 2026)",
-    "start": "2026-09-30 14:00",
-    "end": "2026-09-30 14:00",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "MainNet Topology Freeze (0.8.x Required) (October 2026)",
-    "start": "2026-10-09",
-    "end": "2026-10-09",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
-    "title": "MainNet LSU (0.8 Required) (October 2026)",
-    "start": "2026-10-10",
-    "end": "2026-10-10",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Protocol Upgrades (LSU)",
-    "category": "general"
-  },
-  {
     "title": "DevNet: Daml models introduced by Splice 0.9.x take effect",
     "start": "2026-10-20",
     "end": "2026-10-20",
