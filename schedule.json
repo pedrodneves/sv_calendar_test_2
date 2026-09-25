@@ -350,6 +350,16 @@
     "category": "general"
   },
   {
+    "title": "DevNet upgrades to Splice 0.11.0",
+    "start": "2026-12-07",
+    "end": "2026-12-07",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
     "title": "MainNet: Breaking configuration changes introduced by Splice 0.10.x take effect",
     "start": "2026-12-08",
     "end": "2026-12-08",
@@ -383,6 +393,746 @@
     "title": "MainNet upgrades to Splice 0.10.4",
     "start": "2027-01-11",
     "end": "2027-01-11",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.11.1",
+    "start": "2027-01-11",
+    "end": "2027-01-11",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.11.0",
+    "start": "2027-01-11",
+    "end": "2027-01-11",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.11.2",
+    "start": "2027-01-18",
+    "end": "2027-01-18",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.11.1",
+    "start": "2027-01-18",
+    "end": "2027-01-18",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.11.0",
+    "start": "2027-01-18",
+    "end": "2027-01-18",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet New Daml models introduced by Splice 0.11.x take effect",
+    "start": "2027-01-19",
+    "end": "2027-01-19",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "DevNet Topology Freeze (0.11 Required) (December 2026)",
+    "start": "2027-01-19",
+    "end": "2027-01-19",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet LSU (0.11 Required) (December 2026)",
+    "start": "2027-01-20",
+    "end": "2027-01-20",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.11.3",
+    "start": "2027-01-25",
+    "end": "2027-01-25",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.11.2",
+    "start": "2027-01-25",
+    "end": "2027-01-25",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.11.1",
+    "start": "2027-01-25",
+    "end": "2027-01-25",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet Breaking Config Changes (0.11 Required)",
+    "start": "2027-01-26",
+    "end": "2027-01-26",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "TestNet New Daml models introduced by Splice 0.11.x take effect",
+    "start": "2027-01-26",
+    "end": "2027-01-26",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "TestNet Topology Freeze (0.11 Required) (December 2026)",
+    "start": "2027-01-26",
+    "end": "2027-01-26",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "TestNet LSU (0.11 Required) (December 2026)",
+    "start": "2027-01-27",
+    "end": "2027-01-27",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.12.0",
+    "start": "2027-02-01",
+    "end": "2027-02-01",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.11.3",
+    "start": "2027-02-01",
+    "end": "2027-02-01",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.11.2",
+    "start": "2027-02-01",
+    "end": "2027-02-01",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet New Daml models introduced by Splice 0.11.x take effect",
+    "start": "2027-02-02",
+    "end": "2027-02-02",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "TestNet Breaking Config Changes (0.11 Required)",
+    "start": "2027-02-02",
+    "end": "2027-02-02",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Topology Freeze (0.11)",
+    "start": "2027-02-05",
+    "end": "2027-02-05",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet LSU (0.11 Required) (January 2027)",
+    "start": "2027-02-06",
+    "end": "2027-02-06",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.12.1",
+    "start": "2027-02-08",
+    "end": "2027-02-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.11.3",
+    "start": "2027-02-08",
+    "end": "2027-02-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.12.0",
+    "start": "2027-02-08",
+    "end": "2027-02-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Breaking Config Changes (0.11 Required)",
+    "start": "2027-02-09",
+    "end": "2027-02-09",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.12.2",
+    "start": "2027-02-15",
+    "end": "2027-02-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.12.0",
+    "start": "2027-02-15",
+    "end": "2027-02-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.12.1",
+    "start": "2027-02-15",
+    "end": "2027-02-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet New Daml models introduced by Splice 0.12.x take effect",
+    "start": "2027-02-16",
+    "end": "2027-02-16",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "DevNet Topology Freeze (0.12 Required) (February 2027)",
+    "start": "2027-02-16",
+    "end": "2027-02-16",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet LSU (0.12 Required) (February 2027)",
+    "start": "2027-02-17",
+    "end": "2027-02-17",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.12.3",
+    "start": "2027-02-22",
+    "end": "2027-02-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.12.1",
+    "start": "2027-02-22",
+    "end": "2027-02-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.12.2",
+    "start": "2027-02-22",
+    "end": "2027-02-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet Breaking Config Changes (0.12 Required)",
+    "start": "2027-02-23",
+    "end": "2027-02-23",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "TestNet New Daml models introduced by Splice 0.12.x take effect",
+    "start": "2027-02-23",
+    "end": "2027-02-23",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "TestNet Topology Freeze (0.12 Required) (February 2027)",
+    "start": "2027-02-23",
+    "end": "2027-02-23",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "TestNet LSU (0.12 Required) (February 2027)",
+    "start": "2027-02-24",
+    "end": "2027-02-24",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.12.2",
+    "start": "2027-03-01",
+    "end": "2027-03-01",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.13.0",
+    "start": "2027-03-01",
+    "end": "2027-03-01",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.12.3",
+    "start": "2027-03-01",
+    "end": "2027-03-01",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet New Daml models introduced by Splice 0.12.x take effect",
+    "start": "2027-03-02",
+    "end": "2027-03-02",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "TestNet Breaking Config Changes (0.12 Required)",
+    "start": "2027-03-02",
+    "end": "2027-03-02",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Topology Freeze (0.12)",
+    "start": "2027-03-05",
+    "end": "2027-03-05",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet LSU (0.12 Required) (March 2027)",
+    "start": "2027-03-06",
+    "end": "2027-03-06",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.12.3",
+    "start": "2027-03-08",
+    "end": "2027-03-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.13.1",
+    "start": "2027-03-08",
+    "end": "2027-03-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.0",
+    "start": "2027-03-08",
+    "end": "2027-03-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Breaking Config Changes (0.12 Required)",
+    "start": "2027-03-09",
+    "end": "2027-03-09",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.13.2",
+    "start": "2027-03-15",
+    "end": "2027-03-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.1",
+    "start": "2027-03-15",
+    "end": "2027-03-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.13.0",
+    "start": "2027-03-15",
+    "end": "2027-03-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet New Daml models introduced by Splice 0.13.x take effect",
+    "start": "2027-03-16",
+    "end": "2027-03-16",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "DevNet Topology Freeze (0.13 Required) (March 2027)",
+    "start": "2027-03-16",
+    "end": "2027-03-16",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet LSU (0.13 Required) (March 2027)",
+    "start": "2027-03-17",
+    "end": "2027-03-17",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.13.3",
+    "start": "2027-03-22",
+    "end": "2027-03-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.2",
+    "start": "2027-03-22",
+    "end": "2027-03-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.13.1",
+    "start": "2027-03-22",
+    "end": "2027-03-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet Breaking Config Changes (0.13 Required)",
+    "start": "2027-03-23",
+    "end": "2027-03-23",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "TestNet New Daml models introduced by Splice 0.13.x take effect",
+    "start": "2027-03-23",
+    "end": "2027-03-23",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "TestNet Topology Freeze (0.13 Required) (March 2027)",
+    "start": "2027-03-23",
+    "end": "2027-03-23",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "TestNet LSU (0.13 Required) (March 2027)",
+    "start": "2027-03-24",
+    "end": "2027-03-24",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.13.4",
+    "start": "2027-03-29",
+    "end": "2027-03-29",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.3",
+    "start": "2027-03-29",
+    "end": "2027-03-29",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.13.2",
+    "start": "2027-03-29",
+    "end": "2027-03-29",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet Breaking Config Changes (0.13 Required)",
+    "start": "2027-03-30",
+    "end": "2027-03-30",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet New Daml models introduced by Splice 0.13.x take effect",
+    "start": "2027-03-30",
+    "end": "2027-03-30",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Topology Freeze (0.13)",
+    "start": "2027-04-02",
+    "end": "2027-04-02",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "MainNet LSU (0.13 Required) (April 2027)",
+    "start": "2027-04-03",
+    "end": "2027-04-03",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Protocol Upgrades (LSU)",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.4",
+    "start": "2027-04-05",
+    "end": "2027-04-05",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.13.3",
+    "start": "2027-04-05",
+    "end": "2027-04-05",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet Breaking Config Changes (0.13 Required)",
+    "start": "2027-04-06",
+    "end": "2027-04-06",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.13.4",
+    "start": "2027-04-12",
+    "end": "2027-04-12",
     "description": "",
     "status": "To Be Confirmed",
     "network": "MainNet",
