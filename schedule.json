@@ -1,15 +1,5 @@
 [
   {
-    "title": "DevNet: Breaking configuration changes introduced by Splice 0.9.x take effect",
-    "start": "2026-10-27",
-    "end": "2026-10-27",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
     "title": "TestNet: Breaking configuration changes introduced by Splice 0.9.x take effect",
     "start": "2026-11-03",
     "end": "2026-11-03",
