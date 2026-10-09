@@ -1,25 +1,5 @@
 [
   {
-    "title": "TestNet: Breaking configuration changes introduced by Splice 0.9.x take effect",
-    "start": "2026-11-03",
-    "end": "2026-11-03",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "MainNet: Breaking configurations introduced by Splice 0.9.x take effect",
-    "start": "2026-11-10",
-    "end": "2026-11-10",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
     "title": "DevNet: Daml models introduced by Splice 0.10.0 take effect",
     "start": "2026-11-17",
     "end": "2026-11-17",
