@@ -190,7 +190,7 @@
     "category": "general"
   },
   {
-    "title": "DevNet Topology Freeze (0.11 Required) (December 2026)",
+    "title": "DevNet Topology Freeze (0.11 Required) (January 2027)",
     "start": "2027-01-19",
     "end": "2027-01-19",
     "description": "",
@@ -200,7 +200,7 @@
     "category": "general"
   },
   {
-    "title": "DevNet LSU (0.11 Required) (December 2026)",
+    "title": "DevNet LSU (0.11 Required) (January 2026)",
     "start": "2027-01-20",
     "end": "2027-01-20",
     "description": "",
@@ -260,7 +260,7 @@
     "category": "general"
   },
   {
-    "title": "TestNet Topology Freeze (0.11 Required) (December 2026)",
+    "title": "TestNet Topology Freeze (0.11 Required) (January 2027)",
     "start": "2027-01-26",
     "end": "2027-01-26",
     "description": "",
@@ -270,7 +270,7 @@
     "category": "general"
   },
   {
-    "title": "TestNet LSU (0.11 Required) (December 2026)",
+    "title": "TestNet LSU (0.11 Required) (January 2027)",
     "start": "2027-01-27",
     "end": "2027-01-27",
     "description": "",
@@ -340,7 +340,7 @@
     "category": "general"
   },
   {
-    "title": "MainNet LSU (0.11 Required) (January 2027)",
+    "title": "MainNet LSU (0.11 Required) (February 2027)",
     "start": "2027-02-06",
     "end": "2027-02-06",
     "description": "",
