@@ -90,16 +90,6 @@
     "category": "general"
   },
   {
-    "title": "DevNet upgrades to Splice 0.11.0",
-    "start": "2026-12-07",
-    "end": "2026-12-07",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
     "title": "MainNet: Breaking configuration changes introduced by Splice 0.10.x take effect",
     "start": "2026-12-08",
     "end": "2026-12-08",
