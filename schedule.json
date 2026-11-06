@@ -1,35 +1,5 @@
 [
   {
-    "title": "DevNet: Daml models introduced by Splice 0.10.0 take effect",
-    "start": "2026-11-17",
-    "end": "2026-11-17",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
-    "title": "TestNet: Daml models introduced by Splice 0.10.x take effect",
-    "start": "2026-11-24",
-    "end": "2026-11-24",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
-    "title": "MainNet: Daml models introduced by Splice 0.10.x take effect",
-    "start": "2026-12-01",
-    "end": "2026-12-01",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
     "title": "DevNet upgrades to Splice 0.11.1",
     "start": "2027-01-11",
     "end": "2027-01-11",
