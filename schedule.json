@@ -51,8 +51,8 @@
   },
   {
     "title": "DevNet New Daml models introduced by Splice 0.11.x take effect",
-    "start": "2027-01-19",
-    "end": "2027-01-19",
+    "start": "2027-01-18",
+    "end": "2027-01-18",
     "description": "",
     "status": "To Be Confirmed",
     "network": "DevNet",
@@ -110,6 +110,16 @@
     "category": "general"
   },
   {
+    "title": "TestNet New Daml models introduced by Splice 0.11.x take effect",
+    "start": "2027-01-25",
+    "end": "2027-01-25",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
     "title": "DevNet Breaking Config Changes (0.11 Required)",
     "start": "2027-01-26",
     "end": "2027-01-26",
@@ -117,16 +127,6 @@
     "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "TestNet New Daml models introduced by Splice 0.11.x take effect",
-    "start": "2027-01-26",
-    "end": "2027-01-26",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
   {
@@ -181,8 +181,8 @@
   },
   {
     "title": "MainNet New Daml models introduced by Splice 0.11.x take effect",
-    "start": "2027-02-02",
-    "end": "2027-02-02",
+    "start": "2027-02-01",
+    "end": "2027-02-01",
     "description": "",
     "status": "To Be Confirmed",
     "network": "MainNet",
@@ -291,8 +291,8 @@
   },
   {
     "title": "DevNet New Daml models introduced by Splice 0.12.x take effect",
-    "start": "2027-02-16",
-    "end": "2027-02-16",
+    "start": "2027-02-15",
+    "end": "2027-02-15",
     "description": "",
     "status": "To Be Confirmed",
     "network": "DevNet",
@@ -350,6 +350,16 @@
     "category": "general"
   },
   {
+    "title": "TestNet New Daml models introduced by Splice 0.12.x take effect",
+    "start": "2027-02-22",
+    "end": "2027-02-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
     "title": "DevNet Breaking Config Changes (0.12 Required)",
     "start": "2027-02-23",
     "end": "2027-02-23",
@@ -357,16 +367,6 @@
     "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "TestNet New Daml models introduced by Splice 0.12.x take effect",
-    "start": "2027-02-23",
-    "end": "2027-02-23",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
   {
@@ -421,8 +421,8 @@
   },
   {
     "title": "MainNet New Daml models introduced by Splice 0.12.x take effect",
-    "start": "2027-03-02",
-    "end": "2027-03-02",
+    "start": "2027-03-01",
+    "end": "2027-03-01",
     "description": "",
     "status": "To Be Confirmed",
     "network": "MainNet",
@@ -531,8 +531,8 @@
   },
   {
     "title": "DevNet New Daml models introduced by Splice 0.13.x take effect",
-    "start": "2027-03-16",
-    "end": "2027-03-16",
+    "start": "2027-03-15",
+    "end": "2027-03-15",
     "description": "",
     "status": "To Be Confirmed",
     "network": "DevNet",
@@ -590,6 +590,16 @@
     "category": "general"
   },
   {
+    "title": "TestNet New Daml models introduced by Splice 0.13.x take effect",
+    "start": "2027-03-22",
+    "end": "2027-03-22",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
     "title": "DevNet Breaking Config Changes (0.13 Required)",
     "start": "2027-03-23",
     "end": "2027-03-23",
@@ -597,16 +607,6 @@
     "status": "To Be Confirmed",
     "network": "DevNet",
     "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "TestNet New Daml models introduced by Splice 0.13.x take effect",
-    "start": "2027-03-23",
-    "end": "2027-03-23",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
   {
@@ -660,6 +660,16 @@
     "category": "general"
   },
   {
+    "title": "MainNet New Daml models introduced by Splice 0.13.x take effect",
+    "start": "2027-03-29",
+    "end": "2027-03-29",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Splice Daml Model Effectivity",
+    "category": "general"
+  },
+  {
     "title": "TestNet Breaking Config Changes (0.13 Required)",
     "start": "2027-03-30",
     "end": "2027-03-30",
@@ -667,16 +677,6 @@
     "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "MainNet New Daml models introduced by Splice 0.13.x take effect",
-    "start": "2027-03-30",
-    "end": "2027-03-30",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Splice Daml Model Effectivity",
     "category": "general"
   },
   {
