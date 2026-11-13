@@ -400,16 +400,6 @@
     "category": "general"
   },
   {
-    "title": "DevNet upgrades to Splice 0.13.0",
-    "start": "2027-03-01",
-    "end": "2027-03-01",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
     "title": "TestNet upgrades to Splice 0.12.3",
     "start": "2027-03-01",
     "end": "2027-03-01",
@@ -470,26 +460,6 @@
     "category": "general"
   },
   {
-    "title": "DevNet upgrades to Splice 0.13.1",
-    "start": "2027-03-08",
-    "end": "2027-03-08",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "TestNet upgrades to Splice 0.13.0",
-    "start": "2027-03-08",
-    "end": "2027-03-08",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
     "title": "MainNet Breaking Config Changes (0.12 Required)",
     "start": "2027-03-09",
     "end": "2027-03-09",
@@ -497,6 +467,26 @@
     "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.13.0",
+    "start": "2027-03-01",
+    "end": "2027-03-01",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "DevNet upgrades to Splice 0.13.1",
+    "start": "2027-03-08",
+    "end": "2027-03-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "DevNet",
+    "type": "Weekly Upgrades",
     "category": "general"
   },
   {
@@ -510,22 +500,22 @@
     "category": "general"
   },
   {
-    "title": "TestNet upgrades to Splice 0.13.1",
-    "start": "2027-03-15",
-    "end": "2027-03-15",
+    "title": "DevNet upgrades to Splice 0.13.3",
+    "start": "2027-03-22",
+    "end": "2027-03-22",
     "description": "",
     "status": "To Be Confirmed",
-    "network": "TestNet",
+    "network": "DevNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
   {
-    "title": "MainNet upgrades to Splice 0.13.0",
-    "start": "2027-03-15",
-    "end": "2027-03-15",
+    "title": "DevNet upgrades to Splice 0.13.4",
+    "start": "2027-03-29",
+    "end": "2027-03-29",
     "description": "",
     "status": "To Be Confirmed",
-    "network": "MainNet",
+    "network": "DevNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
@@ -560,12 +550,32 @@
     "category": "general"
   },
   {
-    "title": "DevNet upgrades to Splice 0.13.3",
-    "start": "2027-03-22",
-    "end": "2027-03-22",
+    "title": "DevNet Breaking Config Changes (0.13 Required)",
+    "start": "2027-03-23",
+    "end": "2027-03-23",
     "description": "",
     "status": "To Be Confirmed",
     "network": "DevNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.0",
+    "start": "2027-03-08",
+    "end": "2027-03-08",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.1",
+    "start": "2027-03-15",
+    "end": "2027-03-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
@@ -580,12 +590,22 @@
     "category": "general"
   },
   {
-    "title": "MainNet upgrades to Splice 0.13.1",
-    "start": "2027-03-22",
-    "end": "2027-03-22",
+    "title": "TestNet upgrades to Splice 0.13.3",
+    "start": "2027-03-29",
+    "end": "2027-03-29",
     "description": "",
     "status": "To Be Confirmed",
-    "network": "MainNet",
+    "network": "TestNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "TestNet upgrades to Splice 0.13.4",
+    "start": "2027-04-05",
+    "end": "2027-04-05",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "TestNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
@@ -597,16 +617,6 @@
     "status": "To Be Confirmed",
     "network": "TestNet",
     "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
-    "title": "DevNet Breaking Config Changes (0.13 Required)",
-    "start": "2027-03-23",
-    "end": "2027-03-23",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "DevNet",
-    "type": "Other Network Configuration Change",
     "category": "general"
   },
   {
@@ -630,22 +640,32 @@
     "category": "general"
   },
   {
-    "title": "DevNet upgrades to Splice 0.13.4",
-    "start": "2027-03-29",
-    "end": "2027-03-29",
+    "title": "TestNet Breaking Config Changes (0.13 Required)",
+    "start": "2027-03-30",
+    "end": "2027-03-30",
     "description": "",
     "status": "To Be Confirmed",
-    "network": "DevNet",
+    "network": "TestNet",
+    "type": "Other Network Configuration Change",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.13.0",
+    "start": "2027-03-15",
+    "end": "2027-03-15",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
   {
-    "title": "TestNet upgrades to Splice 0.13.3",
-    "start": "2027-03-29",
-    "end": "2027-03-29",
+    "title": "MainNet upgrades to Splice 0.13.1",
+    "start": "2027-03-22",
+    "end": "2027-03-22",
     "description": "",
     "status": "To Be Confirmed",
-    "network": "TestNet",
+    "network": "MainNet",
     "type": "Weekly Upgrades",
     "category": "general"
   },
@@ -660,6 +680,26 @@
     "category": "general"
   },
   {
+    "title": "MainNet upgrades to Splice 0.13.3",
+    "start": "2027-04-05",
+    "end": "2027-04-05",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
+    "title": "MainNet upgrades to Splice 0.13.4",
+    "start": "2027-04-12",
+    "end": "2027-04-12",
+    "description": "",
+    "status": "To Be Confirmed",
+    "network": "MainNet",
+    "type": "Weekly Upgrades",
+    "category": "general"
+  },
+  {
     "title": "MainNet New Daml models introduced by Splice 0.13.x take effect",
     "start": "2027-03-29",
     "end": "2027-03-29",
@@ -667,16 +707,6 @@
     "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Splice Daml Model Effectivity",
-    "category": "general"
-  },
-  {
-    "title": "TestNet Breaking Config Changes (0.13 Required)",
-    "start": "2027-03-30",
-    "end": "2027-03-30",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Other Network Configuration Change",
     "category": "general"
   },
   {
@@ -700,26 +730,6 @@
     "category": "general"
   },
   {
-    "title": "TestNet upgrades to Splice 0.13.4",
-    "start": "2027-04-05",
-    "end": "2027-04-05",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "TestNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
-    "title": "MainNet upgrades to Splice 0.13.3",
-    "start": "2027-04-05",
-    "end": "2027-04-05",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Weekly Upgrades",
-    "category": "general"
-  },
-  {
     "title": "MainNet Breaking Config Changes (0.13 Required)",
     "start": "2027-04-06",
     "end": "2027-04-06",
@@ -727,16 +737,6 @@
     "status": "To Be Confirmed",
     "network": "MainNet",
     "type": "Other Network Configuration Change",
-    "category": "general"
-  },
-  {
-    "title": "MainNet upgrades to Splice 0.13.4",
-    "start": "2027-04-12",
-    "end": "2027-04-12",
-    "description": "",
-    "status": "To Be Confirmed",
-    "network": "MainNet",
-    "type": "Weekly Upgrades",
     "category": "general"
   }
 ]
